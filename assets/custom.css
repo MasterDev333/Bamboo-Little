@@ -1,3 +1,23 @@
+:root {
+  --font-heading-family: 'Adagio_Serif';
+  --font-heading-weight: 300;
+  --font-body-family: 'Geograph';
+  --font-body-weight: 400;
+
+  --clr-dusk: #C7CCCB;
+  --clr-cream: #EFE9E3;
+  --clr-blush: #E0CFC7;
+  --clr-sage: #C8C8B6;
+  --clr-charcoal: #6D6E71;
+  --clr-camel: #D1B8A1;
+  --clr-dusk: #C7CCCB;
+  --clr-beige: #DDD8CC;
+  --clr-soft-gray:#EDEDEE;
+  --clr-dark-gray: #4D4C4C;
+  --clr-light-cream: #F9F6F3;
+  --clr-medium-cream: #F1EEE7;
+  --clr-brown: #A49F99;
+}
 @font-face {
   font-family: 'Adagio_Serif';
   src: url('Adagio_Serif-Light.woff2') format('woff2'),
@@ -25,3 +45,12 @@
   font-display: swap;
 }
 
+/* Announcement bar */
+.announcement-bar {
+  background-color: var(--clr-dusk) !important;
+}
+.announcement-bar__message {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+}
