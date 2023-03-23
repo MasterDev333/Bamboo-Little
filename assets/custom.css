@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Adagio_Serif';
+  src: url('Adagio_Serif-Light.woff2') format('woff2'),
+      url('Adagio_Serif-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geograph';
+  src: url('Geograph-Medium.woff2') format('woff2'),
+      url('Geograph-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geograph';
+  src: url('Geograph-Regular.woff2') format('woff2'),
+      url('Geograph-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
