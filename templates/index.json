@@ -49,7 +49,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Rompercollectoin_1024x1024_2x_1.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -61,37 +61,50 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "55837fa5-cbc4-4136-8930-71ac84da15c6": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16716130549973__55837fa5-cbc4-4136-8930-71ac84da15c6-16795935899307c755-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bath"
+          }
+        },
+        "template--16716130549973__55837fa5-cbc4-4136-8930-71ac84da15c6-16795935899307c755-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bed"
+          }
+        },
+        "template--16716130549973__55837fa5-cbc4-4136-8930-71ac84da15c6-16795935899307c755-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        }
+      },
+      "block_order": [
+        "template--16716130549973__55837fa5-cbc4-4136-8930-71ac84da15c6-16795935899307c755-0",
+        "template--16716130549973__55837fa5-cbc4-4136-8930-71ac84da15c6-16795935899307c755-1",
+        "template--16716130549973__55837fa5-cbc4-4136-8930-71ac84da15c6-16795935899307c755-2"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
+        "title": "Shop by category",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "accent-2",
         "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },
   "order": [
     "image_banner",
     "616450f3-edcc-4c5a-9e42-0ac8b62b59db",
-    "featured_collection"
+    "55837fa5-cbc4-4136-8930-71ac84da15c6"
   ]
 }
