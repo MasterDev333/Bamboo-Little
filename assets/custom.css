@@ -47,7 +47,7 @@
 
 /* Announcement bar */
 .announcement-bar {
-  background-color: var(--clr-dusk) !important;
+  background-color: var(--clr-dusk);
 }
 .announcement-bar__message {
   font-size: 15px;
