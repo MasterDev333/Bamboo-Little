@@ -115,7 +115,7 @@
         "rating": 5,
         "title": "The best!",
         "content": "We love these pajamas! They’re extremely soft, so easy to take on and off, make nighttime diaper changes a breeze and the little foot grips are great during tummy time. Highly recommend!",
-        "author": "Jordan  Zipper Baby Footie Pajama"
+        "author": "Jordan  <a href=\"#\" title=\"#\">Zipper Baby Footie Pajama<\/a>"
       }
     },
     "c705d7b7-99dd-4d05-9c9f-5f24342b2a87": {
@@ -144,6 +144,46 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "bf7724c9-3e42-4d34-ba50-096b339aaba4": {
+      "type": "content-icons",
+      "blocks": {
+        "template--16716130549973__bf7724c9-3e42-4d34-ba50-096b339aaba4-1679918740120cc5ed-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-eco-friendly.png"
+          }
+        },
+        "36ec3c9f-6030-4ffa-aea4-9d15f14504ca": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-soft.png"
+          }
+        },
+        "fae6cd7f-ea0c-4269-bd57-75867ed457d0": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-abosorbant.png"
+          }
+        },
+        "fda5b67e-ab97-419e-acdb-cb2c5f1789ce": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-breathable.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--16716130549973__bf7724c9-3e42-4d34-ba50-096b339aaba4-1679918740120cc5ed-0",
+        "36ec3c9f-6030-4ffa-aea4-9d15f14504ca",
+        "fae6cd7f-ea0c-4269-bd57-75867ed457d0",
+        "fda5b67e-ab97-419e-acdb-cb2c5f1789ce"
+      ],
+      "settings": {
+        "heading": "Better for babies and our planet.",
+        "cta_url": "#",
+        "cta_text": "Learn more"
+      }
     }
   },
   "order": [
@@ -151,6 +191,7 @@
     "616450f3-edcc-4c5a-9e42-0ac8b62b59db",
     "55837fa5-cbc4-4136-8930-71ac84da15c6",
     "10f7861a-d174-4da0-b7b7-49c8824a0d71",
-    "c705d7b7-99dd-4d05-9c9f-5f24342b2a87"
+    "c705d7b7-99dd-4d05-9c9f-5f24342b2a87",
+    "bf7724c9-3e42-4d34-ba50-096b339aaba4"
   ]
 }
