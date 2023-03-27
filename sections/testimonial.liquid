@@ -8,19 +8,19 @@
       alt="{{ section.settings.image.alt }}">
   </div>
   <div class="testimonial-content">
-    {% if settings.label %}
-      <h3 class="testimonial-heading">{{ settings.label }}</h3>
+    {% if section.settings.label %}
+      <h3 class="testimonial-heading">{{ section.settings.label }}</h3>
     {% endif %}
     <div class="testimonial-rating">
       {% for i in (1..settings.rating) %}
         {% render 'icon-star' %}
       {% endfor %}
     </div>
-    {% if settings.content %}
-      <p class="testimonial-content">{{ settings.content }}</p>
+    {% if section.settings.content %}
+      <p class="testimonial-content">{{ section.settings.content }}</p>
     {% endif %}
-    {% if settings.author %}
-      <p class="testimonial-author">{{ settings.author }}</p>
+    {% if section.settings.author %}
+      <p class="testimonial-author">{{ section.settings.author }}</p>
     {% endif %}
   </div>
 </div>
