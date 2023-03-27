@@ -108,6 +108,16 @@
         "padding_bottom": 60
       }
     },
+    "10f7861a-d174-4da0-b7b7-49c8824a0d71": {
+      "type": "testimonial",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/21_1.png",
+        "rating": 5,
+        "title": "The best!",
+        "content": "We love these pajamas! They’re extremely soft, so easy to take on and off, make nighttime diaper changes a breeze and the little foot grips are great during tummy time. Highly recommend!",
+        "author": "Jordan  Zipper Baby Footie Pajama"
+      }
+    },
     "c705d7b7-99dd-4d05-9c9f-5f24342b2a87": {
       "type": "featured-collection",
       "settings": {
@@ -140,6 +150,7 @@
     "image_banner",
     "616450f3-edcc-4c5a-9e42-0ac8b62b59db",
     "55837fa5-cbc4-4136-8930-71ac84da15c6",
+    "10f7861a-d174-4da0-b7b7-49c8824a0d71",
     "c705d7b7-99dd-4d05-9c9f-5f24342b2a87"
   ]
 }
