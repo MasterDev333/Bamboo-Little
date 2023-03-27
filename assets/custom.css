@@ -49,6 +49,10 @@
   display: inline-block;
   position: relative;
   color: #6D6E71;
+  appearance: none;
+  background-color: transparent;
+  text-decoration: none;
+  outline: none;
 }
 .link::after {
   position: absolute;
@@ -60,22 +64,32 @@
   border-bottom: 1px solid #6D6E71;
   transform: scaleX(0);
   transition: transform .3s ease-in-out;
+  will-change: transform;
 }
 .link:hover::after {
   transform: scaleX(1);
 }
+/* Override styles */
+.card-media {
+  width: 100%;
+}
+
 /* Announcement bar */
 .announcement-bar {
   background-color: var(--clr-dusk);
 }
 .announcement-bar__message {
-  font-size: 15px;
-  line-height: 1.5;
-  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #4D4C4C;
 }
-
-.card-media {
-  width: 100%;
+@media only screen and (min-width: 768px) {
+  .announcement-bar__message {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+  }
 }
 
 /* Featured Collection */

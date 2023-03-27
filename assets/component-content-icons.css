@@ -1,4 +1,4 @@
-.content-icons {
+.section-content-icons {
   padding: 40px 0 60px;
   background-color: #C8C8B6;
   color: #6D6E71;
@@ -17,7 +17,7 @@
   max-height: 60px;
 }
 @media only screen and (min-width: 768px) {
-  .content-icons {
+  .section-content-icons {
     padding: 60px 0;
   }
   .content-icons__inner {
@@ -31,7 +31,7 @@
   }
 }
 @media only screen and (min-width: 1024px) {
-  .content-icons {
+  .section-content-icons {
     padding: 80px 0;
   }
   .content-icons__icons {
