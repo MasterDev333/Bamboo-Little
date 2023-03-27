@@ -1,0 +1,66 @@
+{{ 'component-testimonial.css' | asset_url | stylesheet_tag }}
+<div class="page-width testimonial-inner">
+  <div class="testimonial-image">
+    <img
+      class="home-banner__img"
+      src="{{ section.settings.image.src | img_url: '640x400' }}"
+      srcset="{{ section.settings.image.src | img_url: '1280x800', scale: 2}} 2x"
+      alt="{{ section.settings.image.alt }}">
+  </div>
+  <div class="testimonial-content">
+    {% if settings.label %}
+      <h3 class="testimonial-heading">{{ settings.label }}</h3>
+    {% endif %}
+    <div class="testimonial-rating">
+      {% for i in (1..settings.rating) %}
+        {% render 'icon-star' %}
+      {% endfor %}
+    </div>
+    {% if settings.content %}
+      <p class="testimonial-content">{{ settings.content }}</p>
+    {% endif %}
+    {% if settings.author %}
+      <p class="testimonial-author">{{ settings.author }}</p>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Testimonials",
+    "class": "section section-testimonial",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "range",
+        "id": "rating",
+        "min": 0,
+        "max": 5,
+        "step": 1,
+        "default": 5,
+        "label": "Rating"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "title",
+        "default": "The best!",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "Content",
+        "default": "We love these pajamas! They’re extremely soft, so easy to take on and off, make nighttime diaper changes a breeze and the little foot grips are great during tummy time. Highly recommend!"
+      }, {
+        "type": "inline_richtext",
+        "id": "author",
+        "label": "Author",
+        "default": "Jordan  Zipper Baby Footie Pajama"
+      }
+    ]
+  }
+{% endschema %}
