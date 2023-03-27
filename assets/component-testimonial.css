@@ -30,6 +30,7 @@
 }
 .testimonial-author a {
   text-decoration: underline;
+  color: inherit;
 }
 @media only screen and (min-width: 768px) {
   .section-testimonial {

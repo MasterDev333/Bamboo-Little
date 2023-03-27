@@ -1,0 +1,71 @@
+{{ 'component-content-icons.css' | asset_url | stylesheet_tag }}
+<div class="page-width content-icons__inner">
+  <div class="content-icons__content">
+    {% if section.settings.heading %}
+      <h2 class="content-icons__heading">{{ section.settings.heading }}</h2>
+    {% endif %}
+    {% if section.settings.cta_url and section.settings.cta_text %}
+      <a href="{{ section.settings.cta_url }}" class="link">
+        {{ section.settings.cta_text }}
+      </a>
+    {% endif %}
+  </div>
+  <div class="content-icons__icons">
+    {% for block in section.blocks %}
+      {% if block.settings.icon %}
+        <img
+          class="content-icons__icon"
+          src="{{ block.settings.icon | img_url: '70x70' }}"
+          srcset="{{ block.settings.icon | img_url: '140x140', scale: 2 }} 2x"
+          alt="">
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Content Icons",
+    "class": "section section-content-icons",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Better for babies and our planet."
+      }, {
+        "type": "url",
+        "id": "cta_url",
+        "label": "CTA URL"
+      }, {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "icon",
+        "name": "Icons",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "icon",
+            "label": "Icon"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Content Icons",
+        "category": "Advanced Layout",
+        "blocks": [
+          {
+            "type": "icon"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
