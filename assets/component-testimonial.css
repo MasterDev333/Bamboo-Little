@@ -3,6 +3,9 @@
   background: #EFE9E3;
   color: #6D6E71;
 }
+.testimonial-image {
+  margin-bottom: 20px;
+}
 .testimonial-image img {
   display: block;
   width: 100%;
@@ -31,6 +34,9 @@
 @media only screen and (min-width: 768px) {
   .section-testimonial {
     padding: 77px 0;
+  }
+  .testimonial-image {
+    margin-bottom: 0;
   }
   .testimonial-inner {
     display: grid;
