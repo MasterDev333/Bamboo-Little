@@ -21,6 +21,7 @@
   --grid-desktop-vertical-spacing: 10px;
   --grid-desktop-horizontal-spacing: 10px;
 }
+
 @font-face {
   font-family: 'Adagio_Serif';
   src: url('Adagio_Serif-Light.woff2') format('woff2'),
@@ -69,6 +70,9 @@
   transition: transform .3s ease-in-out;
   will-change: transform;
 }
+.link:hover {
+  text-decoration: none;
+}
 .link:hover::after {
   transform: scaleX(1);
 }
@@ -97,23 +101,37 @@
 
 /* Footer Styles */
 .footer {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
   background-color: #4D4C4C;
 }
-.footer__content-top {
+.footer .footer__content-top {
   display: flex;
   padding-bottom: 4rem;
   flex-direction: row-reverse;
   justify-content: space-between;
   border-bottom: 1px solid #EDEDEE;
 }
-.footer-block__details-content .list-menu__item--link {
+.footer .footer-block__details-content .list-menu__item--link {
   color: #EDEDEE;
+}
+.footer .footer-block__details-content .list-menu__item--link:hover {
+  color: #ededee;
+}
+.footer .footer-block .footer-block__heading {
+  margin-bottom: 1.6rem;
+  color: #ededee;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 .footer__blocks-wrapper {
   max-width: 62rem;
+  width: 100%;
 }
-.footer-block--newsletter {
+
+.footer .footer-block--newsletter {
   display: block;
+  margin-top: 0;
   max-width: 33.1rem;
 }
 .footer-block__newsletter .footer-block__heading {
@@ -135,7 +153,7 @@
   fill: #ededee;
 }
 .footer .list-social {
-  margin: 4rem -1.3rem 0;
+  margin: 4rem -1.3rem 0 !important;
   justify-content: flex-start;
 }
 .footer .list-social__item {
