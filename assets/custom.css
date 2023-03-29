@@ -122,6 +122,12 @@
 .footer .footer-block__details-content .list-menu__item--link:hover {
   color: #ededee;
 }
+.footer .footer-block__details-content .list-menu__item--active {
+  text-decoration: none;
+}
+.footer .footer-block__details-content .list-menu__item--active::after {
+  transform: scaleX(1);
+}
 .footer .footer-block .footer-block__heading {
   margin-bottom: 1.6rem;
   color: #ededee;
