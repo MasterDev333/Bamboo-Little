@@ -73,9 +73,12 @@
   margin-bottom: 40px;
   text-align: center;
 }
-.collection-list {
+/* .collection-list {
   display: grid;
   grid-gap: 40px;
+} */
+.collection-list .grid__item {
+  margin-bottom: 40px;
 }
 .collection-card-wrapper .card__inner {
   display: block;
@@ -117,13 +120,16 @@
   letter-spacing: 0.02em;
 }
 @media only screen and (min-width: 768px) {
-  .collection-list {
+  /* .collection-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-gap: 10px;
+  } */
+  .collection-list .grid__item {
+    margin-bottom: 10px;
   }
 }
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
   .collection-list {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-}
+} */
