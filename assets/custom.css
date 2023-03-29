@@ -378,3 +378,17 @@
   line-height: 1.8rem;
   letter-spacing: 0.02em;
 }
+.product-grid-container .collection #product-grid {
+  row-gap: 80px;
+}
+@media only screen and (max-width: 749px) {
+  .price .price-item,
+  .price--on-sale .price-item--regular {
+    display: block !important;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .product-grid-container .collection #product-grid {
+    row-gap: 30px;
+  }
+}
