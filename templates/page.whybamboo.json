@@ -1,5 +1,35 @@
 {
   "sections": {
+    "67b8e5cf-b360-492b-b6f2-f82bb85a22ef": {
+      "type": "main-grid-images",
+      "blocks": {
+        "template--16721555259605__67b8e5cf-b360-492b-b6f2-f82bb85a22ef-16801002168bd65a51-0": {
+          "type": "images",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21_1.png"
+          }
+        },
+        "3fe7a1a8-9a9c-4f1c-9341-e5e9d92a3cb1": {
+          "type": "images",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rompercollectoin_1024x1024_2x_1.png"
+          }
+        },
+        "2925a7bc-a470-4181-a8e1-f298f9e1faac": {
+          "type": "images",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bamboo_swaddles_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--16721555259605__67b8e5cf-b360-492b-b6f2-f82bb85a22ef-16801002168bd65a51-0",
+        "3fe7a1a8-9a9c-4f1c-9341-e5e9d92a3cb1",
+        "2925a7bc-a470-4181-a8e1-f298f9e1faac"
+      ],
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -70,6 +100,7 @@
     }
   },
   "order": [
+    "67b8e5cf-b360-492b-b6f2-f82bb85a22ef",
     "main",
     "052a12d3-c2c9-46dd-b517-a41479fc322a"
   ]
