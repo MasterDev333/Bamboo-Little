@@ -1,6 +1,6 @@
 .content-grid {
   padding: 40px 0 60px;
-  background-color: #F9F6F3;
+  background-color: #F1EEE7;
   text-align: center;
 }
 .content-grid__heading {
@@ -34,6 +34,9 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-gap: 10px;
+  }
+  .content-grid__col:not(:last-child) {
+    margin-bottom: 0;
   }
   .content-grid__image {
     padding-top: 66%;
