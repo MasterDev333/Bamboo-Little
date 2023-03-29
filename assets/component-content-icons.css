@@ -4,6 +4,7 @@
   color: #6D6E71;
 }
 .content-icons__heading {
+  margin-top: 0;
   margin-bottom: 20px;
 }
 .content-icons__icons {
@@ -15,6 +16,11 @@
   flex-shrink: 0;
   max-width: 60px;
   max-height: 60px;
+}
+@media only screen and (max-width: 767px) {
+  .section-content-icons {
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 768px) {
   .section-content-icons {
