@@ -81,6 +81,15 @@
   background-color: transparent;
 }
 /* Override styles */
+.badge {
+  background: #D1B8A1;
+  color: #FFFFFF;
+  border-color: #D1B8A1;
+  padding: 4px 12px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+}
 .card-media {
   width: 100%;
 }
@@ -353,4 +362,19 @@
   .heading-btn .button {
     width: 100%;
   }
+}
+
+/* Collection Page */
+.collection-hero__title {
+  text-transform: capitalize;
+}
+.product-grid-container .collection .full-unstyled-link {
+  font-size: 20px;
+  line-height: 26px;
+}
+.price .price-item,
+.price--on-sale .price-item--regular {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.02em;
 }
