@@ -142,6 +142,7 @@
 .footer .footer-block--newsletter {
   display: block;
   margin-top: 0;
+  margin-right: 3rem;
   max-width: 33.1rem;
 }
 .footer-block__newsletter .footer-block__heading {
@@ -164,7 +165,7 @@
 }
 .footer .list-social {
   margin: 4rem -1.3rem 0 !important;
-  justify-content: flex-start;
+  justify-content: flex-start !important;
 }
 .footer .list-social__item {
   margin: 0 1.3rem;
@@ -196,6 +197,8 @@
   }
   .footer .footer-block--newsletter {
     margin-bottom: 4rem;
+    margin-right: 3rem;
+    max-width: 100%;
   }
   .footer-block__newsletter .footer-block__heading {
     margin-bottom: 2.4rem;
@@ -203,10 +206,9 @@
   }
   .footer .list-social {
     margin-top: 2.5rem !important;
-    justify-content: flex-start;
   }
   .footer .footer__blocks-wrapper {
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-gap: 0 6rem;
   }
@@ -229,6 +231,7 @@
 .featured-collection {
   padding-top: 40px;
   padding-bottom: 60px;
+  background-color: #fff;
 }
 .featured-collection .collection__title {
   text-align: center;
