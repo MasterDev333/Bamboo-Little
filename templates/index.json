@@ -19,49 +19,14 @@
         "show_text_below": false
       }
     },
-    "616450f3-edcc-4c5a-9e42-0ac8b62b59db": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16716130549973__616450f3-edcc-4c5a-9e42-0ac8b62b59db-1679591138b0b59f95-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Snuggly, breezy and sustainable",
-            "heading_size": "h1"
-          }
-        },
-        "template--16716130549973__616450f3-edcc-4c5a-9e42-0ac8b62b59db-1679591138b0b59f95-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Soft enough for the most sensitive skin, better-performing than traditional materials, and kinder for the environment.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16716130549973__616450f3-edcc-4c5a-9e42-0ac8b62b59db-1679591138b0b59f95-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop our favorites",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16716130549973__616450f3-edcc-4c5a-9e42-0ac8b62b59db-1679591138b0b59f95-0",
-        "template--16716130549973__616450f3-edcc-4c5a-9e42-0ac8b62b59db-1679591138b0b59f95-1",
-        "template--16716130549973__616450f3-edcc-4c5a-9e42-0ac8b62b59db-1679591138b0b59f95-2"
-      ],
+    "6ae49d9c-7d5a-4305-a7cc-e60e9a3a2c18": {
+      "type": "content-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Rompercollectoin_1024x1024_2x_1.png",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "Snuggly, breezy and sustainable",
+        "content": "Soft enough for the most sensitive skin, better-performing than traditional materials, and kinder for the environment.",
+        "cta_url": "#",
+        "cta_text": "Shop our favorites"
       }
     },
     "55837fa5-cbc4-4136-8930-71ac84da15c6": {
@@ -191,7 +156,7 @@
   },
   "order": [
     "image_banner",
-    "616450f3-edcc-4c5a-9e42-0ac8b62b59db",
+    "6ae49d9c-7d5a-4305-a7cc-e60e9a3a2c18",
     "55837fa5-cbc4-4136-8930-71ac84da15c6",
     "10f7861a-d174-4da0-b7b7-49c8824a0d71",
     "c705d7b7-99dd-4d05-9c9f-5f24342b2a87",
