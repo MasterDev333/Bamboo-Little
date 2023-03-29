@@ -229,6 +229,11 @@
     padding-left: 0;
     padding-right: 0;
   }
+  .footer .footer-block__details-content .list-menu__item--link {
+    padding: 0.5rem 0;
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
 
 /* Featured Collection */
