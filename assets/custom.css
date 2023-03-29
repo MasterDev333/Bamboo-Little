@@ -309,6 +309,10 @@
 }
 
 /* Banner */
+.section-image-banner {
+  display: flex;
+  flex-direction: column;
+}
 .heading-btn {
   padding: 40px 0;
 }
