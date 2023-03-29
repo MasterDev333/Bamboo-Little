@@ -1,7 +1,7 @@
 {{ 'component-content-grid.css' | asset_url | stylesheet_tag }}
 <div class="page-width">
   {% if section.settings.heading %}
-    <h2 class="content-grid__heading">{{ section.settings.heading }}</h2>
+    <h2 class="h1 content-grid__heading">{{ section.settings.heading }}</h2>
   {% endif %}
   <div class="content-grid__row">
     {% for block in section.blocks %}

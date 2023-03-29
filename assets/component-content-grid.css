@@ -3,6 +3,10 @@
   background-color: #F9F6F3;
   text-align: center;
 }
+.content-grid__heading {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
 .content-grid__col:not(:last-child) {
   margin-bottom: 40px;
 }
