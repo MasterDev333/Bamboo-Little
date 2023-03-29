@@ -1,14 +1,95 @@
 {
   "sections": {
+    "7eff9877-c505-47ab-853e-ab97033f39f4": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16721555030229__7eff9877-c505-47ab-853e-ab97033f39f4-1680097888ae81cdc8-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16721555030229__7eff9877-c505-47ab-853e-ab97033f39f4-1680097888ae81cdc8-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rompercollectoin_1024x1024_2x_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16721555030229__7eff9877-c505-47ab-853e-ab97033f39f4-1680097888ae81cdc8-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16721555030229__7eff9877-c505-47ab-853e-ab97033f39f4-1680097888ae81cdc8-0",
+        "template--16721555030229__7eff9877-c505-47ab-853e-ab97033f39f4-1680097888ae81cdc8-1",
+        "template--16721555030229__7eff9877-c505-47ab-853e-ab97033f39f4-1680097888ae81cdc8-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "c6fdac7f-1f51-459e-8b67-aafeceb74ddb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16721555030229__c6fdac7f-1f51-459e-8b67-aafeceb74ddb-16800985102d315744-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Using sustainable bamboo fabrics, we create baby clothing and accessories that look and feel great; Making the planet happier, one baby at a time.",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16721555030229__c6fdac7f-1f51-459e-8b67-aafeceb74ddb-16800985102d315744-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "7eff9877-c505-47ab-853e-ab97033f39f4",
+    "main",
+    "c6fdac7f-1f51-459e-8b67-aafeceb74ddb"
   ]
 }
