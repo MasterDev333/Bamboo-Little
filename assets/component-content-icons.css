@@ -27,13 +27,22 @@
     padding: 60px 0;
   }
   .content-icons__inner {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   .content-icons__icon {
+    margin-left: 10px;
+    margin-right: 10px;
     max-width: 70px;
     max-height: 70px;
+  }
+  .content-icons__icons {
+    margin-right: -10px;
+    flex-grow: 1;
+  }
+  .content-icons__content {
+    margin-right: 30px;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -42,5 +51,8 @@
   }
   .content-icons__icons {
     margin-top: 0;
+  }
+  .content-icons__content {
+    margin-right: 60px;
   }
 }
