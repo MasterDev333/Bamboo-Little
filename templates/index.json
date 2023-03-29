@@ -3,6 +3,9 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
+        "heading": "Loveys you'll love",
+        "cta_url": "shopify:\/\/collections\/footie-pajamas",
+        "cta_text": "Shop footies",
         "image": "shopify:\/\/shop_images\/bamboo_swaddles_1.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
