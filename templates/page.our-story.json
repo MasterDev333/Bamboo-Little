@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "67b8e5cf-b360-492b-b6f2-f82bb85a22ef": {
+      "type": "main-grid-images",
+      "blocks": {
+        "template--16721555259605__67b8e5cf-b360-492b-b6f2-f82bb85a22ef-16801002168bd65a51-0": {
+          "type": "images",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21_1.png"
+          }
+        },
+        "3fe7a1a8-9a9c-4f1c-9341-e5e9d92a3cb1": {
+          "type": "images",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rompercollectoin_1024x1024_2x_1.png"
+          }
+        },
+        "2925a7bc-a470-4181-a8e1-f298f9e1faac": {
+          "type": "images",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bamboo_swaddles_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--16721555259605__67b8e5cf-b360-492b-b6f2-f82bb85a22ef-16801002168bd65a51-0",
+        "3fe7a1a8-9a9c-4f1c-9341-e5e9d92a3cb1",
+        "2925a7bc-a470-4181-a8e1-f298f9e1faac"
+      ],
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "46163cdc-bb4b-4103-9f30-4207b8e58eba": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16721616208085__46163cdc-bb4b-4103-9f30-4207b8e58eba-16801011124d8bb5d0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Using sustainable bamboo fabrics, we create baby clothing and accessories that look and feel great; Making the planet happier, one baby at a time.",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16721616208085__46163cdc-bb4b-4103-9f30-4207b8e58eba-16801011124d8bb5d0-0"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 92rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "67b8e5cf-b360-492b-b6f2-f82bb85a22ef",
+    "main",
+    "46163cdc-bb4b-4103-9f30-4207b8e58eba"
+  ]
+}
