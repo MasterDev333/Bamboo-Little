@@ -8,13 +8,29 @@
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "",
-            "menu": "footer"
+            "heading": "Help",
+            "menu": "help"
+          }
+        },
+        "836933cb-6660-49cb-86bd-fa746cd92e81": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Company",
+            "menu": "company"
+          }
+        },
+        "dd3f0bff-91a8-4927-8307-18c4a6b34955": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "shop"
           }
         }
       },
       "block_order": [
-        "footer-1"
+        "footer-1",
+        "836933cb-6660-49cb-86bd-fa746cd92e81",
+        "dd3f0bff-91a8-4927-8307-18c4a6b34955"
       ],
       "settings": {
         "color_scheme": "background-2",
