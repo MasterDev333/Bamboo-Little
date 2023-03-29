@@ -1,0 +1,45 @@
+{{ 'component-grid-images.css' | asset_url | stylesheet_tag }}
+<div class="page-width">
+  <div class="grid-images">
+    {% for block in section.blocks %}
+      {% if block.settings.icon %}
+        <img
+          class="grid-image"
+          src="{{ block.settings.icon | img_url: '394x330' }}"
+          srcset="{{ block.settings.icon | img_url: '788x660', scale: 2 }} 2x"
+          alt="">
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Main Grid Images",
+    "class": "section section-grid-images",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "images",
+        "name": "Images",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Main Grid Images",
+        "category": "Advanced Layout",
+        "blocks": [
+          {
+            "type": "images"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
