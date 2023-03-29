@@ -51,6 +51,9 @@
       "block_order": [
         "template--16721616208085__46163cdc-bb4b-4103-9f30-4207b8e58eba-16801011124d8bb5d0-0"
       ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 92rem;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
