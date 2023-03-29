@@ -76,6 +76,10 @@
 .link:hover::after {
   transform: scaleX(1);
 }
+
+.button--secondary {
+  background-color: transparent;
+}
 /* Override styles */
 .card-media {
   width: 100%;
