@@ -428,6 +428,11 @@
   font-size: 3rem;
   line-height: 1.2;
 }
+.cart__note .text-area {
+  border: 1px solid #E1E3E5;
+  box-shadow: none;
+  outline: none;
+}
 @media only screen and (max-width: 749px) {
   #cart .cart-items thead th {
     font-size: 1.2rem;
@@ -441,5 +446,18 @@
     text-align: center;
     font-size: 2.2rem;
     line-height: 2.6rem;
+  }
+  .cart__note {
+    justify-content: center;
+  }
+  .cart__note label {
+    margin-bottom: 1.6rem;
+    font-feature-settings: 1.4rem;
+    line-height: 2.2rem;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .cart__footer>.cart__note {
+    width: 40rem;
   }
 }
