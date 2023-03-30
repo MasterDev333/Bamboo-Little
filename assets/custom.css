@@ -134,6 +134,7 @@
 }
 .footer .footer-block__details-content .list-menu__item--link:hover {
   color: #ededee;
+  text-decoration: none;
 }
 .footer .footer-block__details-content .list-menu__item--active {
   text-decoration: none;
@@ -197,6 +198,9 @@
 .footer__copyright {
   color: #ededee;
   font-size: 1rem;
+}
+.copyright__content a:hover {
+  color: inherit
 }
 @media only screen and (max-width: 749px) {
   .footer {
@@ -310,6 +314,9 @@
   font-size: 14px;
   line-height: 22px;
 }
+.section-main .main-page-content strong {
+  font-weight: 500;
+}
 @media only screen and (min-width: 768px) {
   .section-main .page-width {
     padding-top: 100px;
@@ -323,9 +330,6 @@
   .section-main .main-page-content {
     font-size: 18px;
     line-height: 30px;
-  }
-  .section-main .main-page-content strong {
-    font-weight: 500;
   }
 }
 
