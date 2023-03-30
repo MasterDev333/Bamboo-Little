@@ -346,17 +346,131 @@
           "settings": {
             "product_tag": "washcloth",
             "main-title": "",
-            "star-title-a": "",
-            "star-text-a": "",
-            "star-title-b": "",
-            "star-text-b": ""
+            "star-image-a": "shopify:\/\/shop_images\/bath1.jpg",
+            "star-title-a": "why bamboo fabrics are the best for bathtime",
+            "star-text-a": "Our bamboo washcloths are made from one of the most renewable and environmentally-friendly materials on the planet. Bamboo naturally repels odors, wicks moisture, and is unbelievably soft. It is great for babies with sensitive skin or allergies.",
+            "star-image-b": "shopify:\/\/shop_images\/EI5A2790_40abee51-65ec-45d2-b97e-e01afe6b1851.jpg",
+            "star-title-b": "naturally soft and absorbent",
+            "star-text-b": "Keep your little one clean and dry with our Bamboo Little washcloths. Highly absorbent plush bamboo terry on the inside and super soft bamboo muslin on the outside combine for the finest luxury washcloth set."
+          }
+        },
+        "b3ac6e53-29a1-48c4-84c9-70a065d55b3a": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "bathtime",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/EI5A2782_5849c39b-069c-45ef-b4ce-46cbd6cfc778.jpg",
+            "star-title-a": "why choose bamboo for bathtime",
+            "star-text-a": "Our bamboo hooded towels and washcloths are made from one of the most renewable and environmentally-friendly materials on the planet. Bamboo naturally repels odors, wicks moisture, and is unbelievably soft. It is great for babies with sensitive skin or allergies.",
+            "star-image-b": "shopify:\/\/shop_images\/image3.jpg",
+            "star-title-b": "naturally soft and super absorbent",
+            "star-text-b": "Keep your little one warm and dry with our hooded towels and washcloths. Highly absorbent plush bamboo terry on the inside and super soft bamboo muslin on the outside combine for the finest luxury towel set."
+          }
+        },
+        "b20b540a-35f7-4710-8f47-635f6c8cc257": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "quilt",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/2022-10-06Modeling-8253.jpg",
+            "star-title-a": "made for comfort",
+            "star-text-a": "Our baby bamboo quilts are thoughtfully created from 8 layers of bamboo muslin for ultimate comfort. They are snuggly soft with unique and custom prints combining luxury, quality, and cuteness all in one.",
+            "star-image-b": "shopify:\/\/shop_images\/20210809_095929_1a37b1aa-999b-4752-92f5-1e836cac0a56.jpg",
+            "star-title-b": "why bamboo?",
+            "star-text-b": "Bamboo is one of the most renewable and environmentally-friendly materials on the planet: it grows pesticide-free, self-regenerates after harvesting, and doesn’t need chemical treatments like other fabrics."
+          }
+        },
+        "e520b722-12d4-45ca-a5d8-17a98d0107f7": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "footie",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/EI5A0143.jpg",
+            "star-title-a": "why bamboo jersey?",
+            "star-text-a": "All of our footies are made with the finest bamboo jersey fabric with just the right amount of stretch. This combination takes comfort to the next level for your little one.",
+            "star-image-b": "shopify:\/\/shop_images\/Security_blue_16x9..jpg",
+            "star-title-b": "the perfect gift idea",
+            "star-text-b": "For the perfect gift, combine our bamboo sleepers with a matching bamboo security blanket."
+          }
+        },
+        "93b0f8b1-6a8c-489c-8488-3f6cf3ad4b23": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "swaddle",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/swaddle_banner_ef3e6b4d-5660-48e5-aa29-d6b73b8e5940.jpg",
+            "star-title-a": "why swaddle your baby?",
+            "star-text-a": "Swaddling helps soothe newborns, giving both baby and new parents a much-needed rest. Swaddling a baby involves the well-known technique of wrapping a blanket around the baby tightly enough that they can’t wriggle out, thereby waking themselves up. It’s recommended for most newborns for the first three to four months, until they can roll over on their own.\n<p>\nSwaddling a baby helps them to sleep better because the newborn feels more comfortable and safer in the womb-like wrapping. Keeping their arms in place with the swaddling blanket helps improve sleep as well. Swaddling is also an important way to keep babies warm while they sleep while also keeping loose blankets out of the crib. Blankets or any other loose items left in the crib can cause a suffocation hazard for babies.<\/p>",
+            "star-image-b": "shopify:\/\/shop_images\/Swaddle_purple_16x9_c073f72e-4ec1-4bbd-afdc-cb1ef9d5d259.jpg",
+            "star-title-b": "other ways you can use swaddle blankets",
+            "star-text-b": "Our bamboo baby swaddles are perfect multipurpose blankets. Our bamboo swaddles are large and soft enough for tummy time and nursing covers. The muslin allows for airflow making them extremely breathable and the perfect stroller and nursing covers.\n<p>\nBamboo muslin is extremely breathable, which keeps your newborn cool and helps prevent overheating. It is unbelievably soft and comfortable. Bamboo fibers are made without chemical treatments, which create naturally smoother materials for your newborn to enjoy. Bamboo muslin is hypoallergenic, making this bamboo swaddle even great for babies with sensitive skin.<\/p>"
+          }
+        },
+        "6936461d-310c-4392-9f18-7b2ad2970d21": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "bibs",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/IMG_446w3.jpg",
+            "star-title-a": "the best way to keep your baby clean...",
+            "star-text-a": "Our bamboo baby bibs will help protect your baby from spills and messes. It comes with adjustable snaps allowing for your baby to grow. Cute designs make eating fun and it’s so comfortable your baby will forget they're wearing it.",
+            "star-image-b": "shopify:\/\/shop_images\/bibs2.jpg",
+            "star-title-b": "naturally soft and absorbent",
+            "star-text-b": "Highly absorbent plush bamboo terry on the inside and super soft bamboo muslin on the outside combine for the finest luxury bamboo bibs."
+          }
+        },
+        "ce426dda-d36f-45fb-866e-538554a5b2da": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "cloud",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/blanket_cat_bf8f963e-e7f2-4cbb-b7d8-0b57f1c069b9.png",
+            "star-title-a": "soft as a cloud",
+            "star-text-a": "Our Cozy Cloud bamboo baby blankets are made from the softest materials and come with extra fluffy filling. To add to the comfort, we have added 3D massaging dots, formed by a special foaming process. The massaging dots provide continuous comfort just like a mother's gentle touch.",
+            "star-image-b": "shopify:\/\/shop_images\/cloud_banner_e059f9de-225d-44ba-affe-64aa793ba805.jpg",
+            "star-title-b": "the perfect blanket...",
+            "star-text-b": "Our cloud bamboo blankets can be used in a variety of different ways. The extra fluffiness and softness makes it perfect for playtime, tummy time or just snuggles. You'll love this blanket so much, you might even want one for yourself."
+          }
+        },
+        "78ccbeb0-da98-46e4-af17-45889aedc907": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "plush security",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/IMG_359n1.jpg",
+            "star-title-a": "made from the softest fabric blend",
+            "star-text-a": "Our bamboo plush security blankets are cozy and snuggly. Made with bamboo and polyester with a super soft trim. We've designed our soft bamboo rompers to match our security blankets.",
+            "star-image-b": "shopify:\/\/shop_images\/Security_blue_16x9_8cd56150-ae77-46e4-9e0b-6c1b4e777416.jpg",
+            "star-title-b": "the importance of security blankets",
+            "star-text-b": "Security blankets help babies feel safe, secure, and comfortable. They are a continuous reminder of familiar scents, especially when away from parents. Baby security blankets can even help with sleep and can play a vital roll in your babies life!"
+          }
+        },
+        "886eaf6c-2af2-4ed7-9b71-2805d8d71796": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "sacks",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/Sleepsack_elepahnt_1x1_87d884df-82bc-4096-b23e-c481cb13ed7f.jpg",
+            "star-title-a": "made for comfort",
+            "star-text-a": "Our baby sleep sacks are thoughtfully created from 8 layers of bamboo muslin for ultimate comfort. They are snuggly soft with unique and custom prints combining luxury, quality, and cuteness all in one.",
+            "star-image-b": "shopify:\/\/shop_images\/bamboo.jpg",
+            "star-title-b": "why bamboo?",
+            "star-text-b": "Bamboo is one of the most renewable and environmentally-friendly materials on the planet: it grows pesticide-free, self-regenerates after harvesting, and doesn’t need chemical treatments like other fabrics."
           }
         }
       },
       "block_order": [
         "5e594414-20f9-45ab-85e9-f6a5a9fde2ef",
         "922810c9-2db3-4fa4-8d31-b7d5ffaa1ecf",
-        "aa4ae5ad-4342-4af9-be60-6e12acc0eb09"
+        "aa4ae5ad-4342-4af9-be60-6e12acc0eb09",
+        "b3ac6e53-29a1-48c4-84c9-70a065d55b3a",
+        "b20b540a-35f7-4710-8f47-635f6c8cc257",
+        "e520b722-12d4-45ca-a5d8-17a98d0107f7",
+        "93b0f8b1-6a8c-489c-8488-3f6cf3ad4b23",
+        "6936461d-310c-4392-9f18-7b2ad2970d21",
+        "ce426dda-d36f-45fb-866e-538554a5b2da",
+        "78ccbeb0-da98-46e4-af17-45889aedc907",
+        "886eaf6c-2af2-4ed7-9b71-2805d8d71796"
       ],
       "settings": {
       }
