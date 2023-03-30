@@ -164,7 +164,7 @@
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                  {{ product.description }}
+            			{{ product.description | split: '<!-- split -->' | first }}
                 </div>
               {%- endif -%}
             {%- when 'sku' -%}
@@ -438,6 +438,9 @@
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
         </a>
+
+
+
         {% comment %} Details {% endcomment %}
         <div class="product__accordion accordion quick-add-hidden">
           <details id="Details-details">
