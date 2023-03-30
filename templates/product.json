@@ -75,6 +75,406 @@
         "padding_bottom": 12
       }
     },
+    "802c9bcf-e454-441d-8950-c8a1d85ebb5a": {
+      "type": "product-icons-twc",
+      "blocks": {
+        "5a35bc5a-71ea-43be-8f29-643d16d1737b": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "romper",
+            "icon-image-a": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-a": "",
+            "icon-text-a": "Snuggly soft",
+            "icon-image-b": "shopify:\/\/shop_images\/Breathable_3_65932bcc-958a-4903-8d35-42645829987e.png",
+            "icon-title-b": "",
+            "icon-text-b": "3 degrees cooler than cotton",
+            "icon-image-c": "shopify:\/\/shop_images\/Eco-Friendly_2_8a0fe1b0-8484-4fd9-b4be-a4697cb8ef7c.png",
+            "icon-title-c": "",
+            "icon-text-c": "Made from one of nature's most eco-friendly, renewable, and resilient materials",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "d3b8b3fd-f704-43ac-91f6-29c29a98ef81": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "security",
+            "icon-image-a": "shopify:\/\/shop_images\/Size_1_252b4f0e-528e-4ff4-93a8-a1708a61a14a.png",
+            "icon-title-a": "",
+            "icon-text-a": "Measures 16\" x 16\"",
+            "icon-image-b": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-b": "",
+            "icon-text-b": "Cloudlike blend surrounded with silky satin trim",
+            "icon-image-c": "shopify:\/\/shop_images\/Eco-Friendly_2_8a0fe1b0-8484-4fd9-b4be-a4697cb8ef7c.png",
+            "icon-title-c": "",
+            "icon-text-c": "Made from one of nature's most eco-friendly, renewable, and resilient materials",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "54f4f636-462e-4e67-9269-00fcb426fd77": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "swaddle",
+            "icon-image-a": "shopify:\/\/shop_images\/Size_1_252b4f0e-528e-4ff4-93a8-a1708a61a14a.png",
+            "icon-title-a": "",
+            "icon-text-a": "Measures 43\" x 43\"",
+            "icon-image-b": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-b": "",
+            "icon-text-b": "4 layers, softer with each wash, softer than cotton",
+            "icon-image-c": "shopify:\/\/shop_images\/Breathable_3_65932bcc-958a-4903-8d35-42645829987e.png",
+            "icon-title-c": "",
+            "icon-text-c": "3 degrees cooler than cotton",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "0b1f5bc3-68bb-485b-a51c-b2ddcbd7709a": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "quilt",
+            "icon-image-a": "shopify:\/\/shop_images\/Size_1_252b4f0e-528e-4ff4-93a8-a1708a61a14a.png",
+            "icon-title-a": "",
+            "icon-text-a": "47\" x 47\"",
+            "icon-image-b": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-b": "",
+            "icon-text-b": "8 layers, softer with each wash, softer than cotton",
+            "icon-image-c": "shopify:\/\/shop_images\/Eco-Friendly_2_8a0fe1b0-8484-4fd9-b4be-a4697cb8ef7c.png",
+            "icon-title-c": "",
+            "icon-text-c": "Made from renewable and environmentally friendly material",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "82a8e882-f3b3-4261-a903-092d6dba4cbb": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "footie",
+            "icon-image-a": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-a": "",
+            "icon-text-a": "Snuggly soft",
+            "icon-image-b": "shopify:\/\/shop_images\/Breathable_3_65932bcc-958a-4903-8d35-42645829987e.png",
+            "icon-title-b": "",
+            "icon-text-b": "3 degrees cooler than cotton",
+            "icon-image-c": "shopify:\/\/shop_images\/Eco-Friendly_2_8a0fe1b0-8484-4fd9-b4be-a4697cb8ef7c.png",
+            "icon-title-c": "",
+            "icon-text-c": "Made from one of nature's most eco-friendly, renewable, and resilient materials",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "9152335b-776b-4b4e-9691-9dece47a2d6e": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "bathtime",
+            "icon-image-a": "shopify:\/\/shop_images\/Size_1_252b4f0e-528e-4ff4-93a8-a1708a61a14a.png",
+            "icon-title-a": "",
+            "icon-text-a": "30” x 30” hooded towel & 9” x 9” washcloth",
+            "icon-image-b": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-b": "",
+            "icon-text-b": "Softer with each wash, softer than cotton",
+            "icon-image-c": "shopify:\/\/shop_images\/Absorbent_1_26fb6a19-a096-4986-92e9-35df0bcde5eb.png",
+            "icon-title-c": "",
+            "icon-text-c": "Absorbent terry lining",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "92cd47b5-d17c-4ea0-95b9-2d5e537e8b48": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "bibs",
+            "icon-image-a": "shopify:\/\/shop_images\/Size_1_252b4f0e-528e-4ff4-93a8-a1708a61a14a.png",
+            "icon-title-a": "",
+            "icon-text-a": "Each bib measures 9” x 13.25”",
+            "icon-image-b": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-b": "",
+            "icon-text-b": "Softer with each wash, softer than cotton",
+            "icon-image-c": "shopify:\/\/shop_images\/Absorbent_1_26fb6a19-a096-4986-92e9-35df0bcde5eb.png",
+            "icon-title-c": "",
+            "icon-text-c": "Absorbent terry lining",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach"
+          }
+        },
+        "8075bce1-6da7-4528-b311-0e796d101a4f": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "washcloth",
+            "icon-image-a": "shopify:\/\/shop_images\/Size_1_252b4f0e-528e-4ff4-93a8-a1708a61a14a.png",
+            "icon-title-a": "",
+            "icon-text-a": "9\" x 9\" washcloths",
+            "icon-image-b": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-b": "",
+            "icon-text-b": "Softer with each wash, softer than cotton",
+            "icon-image-c": "shopify:\/\/shop_images\/Absorbent_1_26fb6a19-a096-4986-92e9-35df0bcde5eb.png",
+            "icon-title-c": "",
+            "icon-text-c": "Absorbent terry lining",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "44410d84-2393-4479-8ca8-b4ac81a0e9e1": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "cloud",
+            "icon-image-a": "shopify:\/\/shop_images\/Size_1_252b4f0e-528e-4ff4-93a8-a1708a61a14a.png",
+            "icon-title-a": "",
+            "icon-text-a": "Measures 47” x 47”",
+            "icon-image-b": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-b": "",
+            "icon-text-b": "Extra fluffy filling for ultimate comfort",
+            "icon-image-c": "shopify:\/\/shop_images\/Eco-Friendly_2_8a0fe1b0-8484-4fd9-b4be-a4697cb8ef7c.png",
+            "icon-title-c": "",
+            "icon-text-c": "Made from renewable and environmentally friendly material",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "9eb33913-8bf1-448e-ac35-a63a96130251": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "plush security",
+            "icon-image-a": "shopify:\/\/shop_images\/Size_1_252b4f0e-528e-4ff4-93a8-a1708a61a14a.png",
+            "icon-title-a": "",
+            "icon-text-a": "Measures 16\" x 16\"",
+            "icon-image-b": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-b": "",
+            "icon-text-b": "Cloudlike blend surrounded with silky trim",
+            "icon-image-c": "shopify:\/\/shop_images\/Eco-Friendly_2_8a0fe1b0-8484-4fd9-b4be-a4697cb8ef7c.png",
+            "icon-title-c": "",
+            "icon-text-c": "Made from one of nature's most eco-friendly, renewable, and resilient materials",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "eb94f031-a349-4e79-8ce3-48a73a289520": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "sacks",
+            "icon-image-a": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-a": "",
+            "icon-text-a": "Snuggly soft",
+            "icon-image-b": "shopify:\/\/shop_images\/Breathable_3_65932bcc-958a-4903-8d35-42645829987e.png",
+            "icon-title-b": "",
+            "icon-text-b": "Snuggly soft",
+            "icon-image-c": "shopify:\/\/shop_images\/Eco-Friendly_2_8a0fe1b0-8484-4fd9-b4be-a4697cb8ef7c.png",
+            "icon-title-c": "",
+            "icon-text-c": "Made from one of nature's most eco-friendly, renewable, and resilient materials",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "56fd0d02-7ac0-49a2-b390-87a73faf06af": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "burp cloths",
+            "icon-image-a": "shopify:\/\/shop_images\/Size_1_b7e07032-8178-47c7-8bae-14fcd6a2b8ec.png",
+            "icon-title-a": "",
+            "icon-text-a": "Each burp cloth measures 21\" x 10\"",
+            "icon-image-b": "shopify:\/\/shop_images\/Soft_2_cefd7ddd-6bc9-4b55-b4ba-e72b1fd51364.png",
+            "icon-title-b": "",
+            "icon-text-b": "Softer with each wash, softer than cotton",
+            "icon-image-c": "shopify:\/\/shop_images\/Absorbent_1_cc80101c-2fac-47be-872c-51a5c73c7306.png",
+            "icon-title-c": "",
+            "icon-text-c": "Absorbent terry lining",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_5ba751a0-de6a-4d73-ad12-5a32d8b33f6a.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach"
+          }
+        }
+      },
+      "block_order": [
+        "5a35bc5a-71ea-43be-8f29-643d16d1737b",
+        "d3b8b3fd-f704-43ac-91f6-29c29a98ef81",
+        "54f4f636-462e-4e67-9269-00fcb426fd77",
+        "0b1f5bc3-68bb-485b-a51c-b2ddcbd7709a",
+        "82a8e882-f3b3-4261-a903-092d6dba4cbb",
+        "9152335b-776b-4b4e-9691-9dece47a2d6e",
+        "92cd47b5-d17c-4ea0-95b9-2d5e537e8b48",
+        "8075bce1-6da7-4528-b311-0e796d101a4f",
+        "44410d84-2393-4479-8ca8-b4ac81a0e9e1",
+        "9eb33913-8bf1-448e-ac35-a63a96130251",
+        "eb94f031-a349-4e79-8ce3-48a73a289520",
+        "56fd0d02-7ac0-49a2-b390-87a73faf06af"
+      ],
+      "settings": {
+      }
+    },
+    "db9c7fe8-12fc-4b39-ac5a-5936bfb67f21": {
+      "type": "product-image-text-twc",
+      "blocks": {
+        "5e594414-20f9-45ab-85e9-f6a5a9fde2ef": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "romper",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/romper_cover.jpg",
+            "star-title-a": "why bamboo interlock?",
+            "star-text-a": "Our bamboo rompers are made with the finest quality of bamboo fabric and cotton interlock which gives it a softness that you won't find in other fabrics.\nThe relaxed fit makes them super comfy and allows for full freedom of movement for sleeping, walking or crawling.",
+            "star-image-b": "shopify:\/\/shop_images\/2022-1c0-06Modeling-8249_2f6936e0-e1fc-498b-86d8-2a4255b343f6.jpg",
+            "star-title-b": "for bedtime or playtime",
+            "star-text-b": "For the perfect gift, combine our bamboo sleepers with a bamboo security blanket."
+          }
+        },
+        "922810c9-2db3-4fa4-8d31-b7d5ffaa1ecf": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "security",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/Security_blue_16x9..jpg",
+            "star-title-a": "made from the softest fabric blend",
+            "star-text-a": "Our bamboo security blankets are cozy and snuggly. Made with organic cotton & bamboo with a silky satin trim. We've designed our soft bamboo zipper footies to match our security blankets.",
+            "star-image-b": "shopify:\/\/shop_images\/IMG_3c603.jpg",
+            "star-title-b": "the importance of security blankets",
+            "star-text-b": "Security blankets help babies feel safe, secure, and comfortable. They are a continuous reminder of familiar scents, especially when away from parents. Baby security blankets can even help with sleep and can play a vital roll in your babies life!"
+          }
+        },
+        "aa4ae5ad-4342-4af9-be60-6e12acc0eb09": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "washcloth",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/bath1.jpg",
+            "star-title-a": "why bamboo fabrics are the best for bathtime",
+            "star-text-a": "Our bamboo washcloths are made from one of the most renewable and environmentally-friendly materials on the planet. Bamboo naturally repels odors, wicks moisture, and is unbelievably soft. It is great for babies with sensitive skin or allergies.",
+            "star-image-b": "shopify:\/\/shop_images\/EI5A2790_40abee51-65ec-45d2-b97e-e01afe6b1851.jpg",
+            "star-title-b": "naturally soft and absorbent",
+            "star-text-b": "Keep your little one clean and dry with our Bamboo Little washcloths. Highly absorbent plush bamboo terry on the inside and super soft bamboo muslin on the outside combine for the finest luxury washcloth set."
+          }
+        },
+        "b3ac6e53-29a1-48c4-84c9-70a065d55b3a": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "bathtime",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/EI5A2782_5849c39b-069c-45ef-b4ce-46cbd6cfc778.jpg",
+            "star-title-a": "why choose bamboo for bathtime",
+            "star-text-a": "Our bamboo hooded towels and washcloths are made from one of the most renewable and environmentally-friendly materials on the planet. Bamboo naturally repels odors, wicks moisture, and is unbelievably soft. It is great for babies with sensitive skin or allergies.",
+            "star-image-b": "shopify:\/\/shop_images\/image3.jpg",
+            "star-title-b": "naturally soft and super absorbent",
+            "star-text-b": "Keep your little one warm and dry with our hooded towels and washcloths. Highly absorbent plush bamboo terry on the inside and super soft bamboo muslin on the outside combine for the finest luxury towel set."
+          }
+        },
+        "b20b540a-35f7-4710-8f47-635f6c8cc257": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "quilt",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/2022-10-06Modeling-8253.jpg",
+            "star-title-a": "made for comfort",
+            "star-text-a": "Our baby bamboo quilts are thoughtfully created from 8 layers of bamboo muslin for ultimate comfort. They are snuggly soft with unique and custom prints combining luxury, quality, and cuteness all in one.",
+            "star-image-b": "shopify:\/\/shop_images\/20210809_095929_1a37b1aa-999b-4752-92f5-1e836cac0a56.jpg",
+            "star-title-b": "why bamboo?",
+            "star-text-b": "Bamboo is one of the most renewable and environmentally-friendly materials on the planet: it grows pesticide-free, self-regenerates after harvesting, and doesn’t need chemical treatments like other fabrics."
+          }
+        },
+        "e520b722-12d4-45ca-a5d8-17a98d0107f7": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "footie",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/EI5A0143.jpg",
+            "star-title-a": "why bamboo jersey?",
+            "star-text-a": "All of our footies are made with the finest bamboo jersey fabric with just the right amount of stretch. This combination takes comfort to the next level for your little one.",
+            "star-image-b": "shopify:\/\/shop_images\/Security_blue_16x9..jpg",
+            "star-title-b": "the perfect gift idea",
+            "star-text-b": "For the perfect gift, combine our bamboo sleepers with a matching bamboo security blanket."
+          }
+        },
+        "93b0f8b1-6a8c-489c-8488-3f6cf3ad4b23": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "swaddle",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/swaddle_banner_ef3e6b4d-5660-48e5-aa29-d6b73b8e5940.jpg",
+            "star-title-a": "why swaddle your baby?",
+            "star-text-a": "Swaddling helps soothe newborns, giving both baby and new parents a much-needed rest. Swaddling a baby involves the well-known technique of wrapping a blanket around the baby tightly enough that they can’t wriggle out, thereby waking themselves up. It’s recommended for most newborns for the first three to four months, until they can roll over on their own.\n<p>\nSwaddling a baby helps them to sleep better because the newborn feels more comfortable and safer in the womb-like wrapping. Keeping their arms in place with the swaddling blanket helps improve sleep as well. Swaddling is also an important way to keep babies warm while they sleep while also keeping loose blankets out of the crib. Blankets or any other loose items left in the crib can cause a suffocation hazard for babies.<\/p>",
+            "star-image-b": "shopify:\/\/shop_images\/Swaddle_purple_16x9_c073f72e-4ec1-4bbd-afdc-cb1ef9d5d259.jpg",
+            "star-title-b": "other ways you can use swaddle blankets",
+            "star-text-b": "Our bamboo baby swaddles are perfect multipurpose blankets. Our bamboo swaddles are large and soft enough for tummy time and nursing covers. The muslin allows for airflow making them extremely breathable and the perfect stroller and nursing covers.\n<p>\nBamboo muslin is extremely breathable, which keeps your newborn cool and helps prevent overheating. It is unbelievably soft and comfortable. Bamboo fibers are made without chemical treatments, which create naturally smoother materials for your newborn to enjoy. Bamboo muslin is hypoallergenic, making this bamboo swaddle even great for babies with sensitive skin.<\/p>"
+          }
+        },
+        "6936461d-310c-4392-9f18-7b2ad2970d21": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "bibs",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/IMG_446w3.jpg",
+            "star-title-a": "the best way to keep your baby clean...",
+            "star-text-a": "Our bamboo baby bibs will help protect your baby from spills and messes. It comes with adjustable snaps allowing for your baby to grow. Cute designs make eating fun and it’s so comfortable your baby will forget they're wearing it.",
+            "star-image-b": "shopify:\/\/shop_images\/bibs2.jpg",
+            "star-title-b": "naturally soft and absorbent",
+            "star-text-b": "Highly absorbent plush bamboo terry on the inside and super soft bamboo muslin on the outside combine for the finest luxury bamboo bibs."
+          }
+        },
+        "ce426dda-d36f-45fb-866e-538554a5b2da": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "cloud",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/blanket_cat_bf8f963e-e7f2-4cbb-b7d8-0b57f1c069b9.png",
+            "star-title-a": "soft as a cloud",
+            "star-text-a": "Our Cozy Cloud bamboo baby blankets are made from the softest materials and come with extra fluffy filling. To add to the comfort, we have added 3D massaging dots, formed by a special foaming process. The massaging dots provide continuous comfort just like a mother's gentle touch.",
+            "star-image-b": "shopify:\/\/shop_images\/cloud_banner_e059f9de-225d-44ba-affe-64aa793ba805.jpg",
+            "star-title-b": "the perfect blanket...",
+            "star-text-b": "Our cloud bamboo blankets can be used in a variety of different ways. The extra fluffiness and softness makes it perfect for playtime, tummy time or just snuggles. You'll love this blanket so much, you might even want one for yourself."
+          }
+        },
+        "78ccbeb0-da98-46e4-af17-45889aedc907": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "plush security",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/IMG_359n1.jpg",
+            "star-title-a": "made from the softest fabric blend",
+            "star-text-a": "Our bamboo plush security blankets are cozy and snuggly. Made with bamboo and polyester with a super soft trim. We've designed our soft bamboo rompers to match our security blankets.",
+            "star-image-b": "shopify:\/\/shop_images\/Security_blue_16x9_8cd56150-ae77-46e4-9e0b-6c1b4e777416.jpg",
+            "star-title-b": "the importance of security blankets",
+            "star-text-b": "Security blankets help babies feel safe, secure, and comfortable. They are a continuous reminder of familiar scents, especially when away from parents. Baby security blankets can even help with sleep and can play a vital roll in your babies life!"
+          }
+        },
+        "886eaf6c-2af2-4ed7-9b71-2805d8d71796": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "sacks",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/Sleepsack_elepahnt_1x1_87d884df-82bc-4096-b23e-c481cb13ed7f.jpg",
+            "star-title-a": "made for comfort",
+            "star-text-a": "Our baby sleep sacks are thoughtfully created from 8 layers of bamboo muslin for ultimate comfort. They are snuggly soft with unique and custom prints combining luxury, quality, and cuteness all in one.",
+            "star-image-b": "shopify:\/\/shop_images\/bamboo.jpg",
+            "star-title-b": "why bamboo?",
+            "star-text-b": "Bamboo is one of the most renewable and environmentally-friendly materials on the planet: it grows pesticide-free, self-regenerates after harvesting, and doesn’t need chemical treatments like other fabrics."
+          }
+        }
+      },
+      "block_order": [
+        "5e594414-20f9-45ab-85e9-f6a5a9fde2ef",
+        "922810c9-2db3-4fa4-8d31-b7d5ffaa1ecf",
+        "aa4ae5ad-4342-4af9-be60-6e12acc0eb09",
+        "b3ac6e53-29a1-48c4-84c9-70a065d55b3a",
+        "b20b540a-35f7-4710-8f47-635f6c8cc257",
+        "e520b722-12d4-45ca-a5d8-17a98d0107f7",
+        "93b0f8b1-6a8c-489c-8488-3f6cf3ad4b23",
+        "6936461d-310c-4392-9f18-7b2ad2970d21",
+        "ce426dda-d36f-45fb-866e-538554a5b2da",
+        "78ccbeb0-da98-46e4-af17-45889aedc907",
+        "886eaf6c-2af2-4ed7-9b71-2805d8d71796"
+      ],
+      "settings": {
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -115,6 +515,8 @@
   },
   "order": [
     "main",
+    "802c9bcf-e454-441d-8950-c8a1d85ebb5a",
+    "db9c7fe8-12fc-4b39-ac5a-5936bfb67f21",
     "related-products",
     "1680179521681e12fb"
   ]
