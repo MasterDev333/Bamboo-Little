@@ -314,6 +314,50 @@
     },
     "db9c7fe8-12fc-4b39-ac5a-5936bfb67f21": {
       "type": "product-image-text-twc",
+      "blocks": {
+        "5e594414-20f9-45ab-85e9-f6a5a9fde2ef": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "romper",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/romper_cover.jpg",
+            "star-title-a": "why bamboo interlock?",
+            "star-text-a": "Our bamboo rompers are made with the finest quality of bamboo fabric and cotton interlock which gives it a softness that you won't find in other fabrics.\nThe relaxed fit makes them super comfy and allows for full freedom of movement for sleeping, walking or crawling.",
+            "star-image-b": "shopify:\/\/shop_images\/2022-1c0-06Modeling-8249_2f6936e0-e1fc-498b-86d8-2a4255b343f6.jpg",
+            "star-title-b": "for bedtime or playtime",
+            "star-text-b": "For the perfect gift, combine our bamboo sleepers with a bamboo security blanket."
+          }
+        },
+        "922810c9-2db3-4fa4-8d31-b7d5ffaa1ecf": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "security",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/Security_blue_16x9..jpg",
+            "star-title-a": "made from the softest fabric blend",
+            "star-text-a": "Our bamboo security blankets are cozy and snuggly. Made with organic cotton & bamboo with a silky satin trim. We've designed our soft bamboo zipper footies to match our security blankets.",
+            "star-image-b": "shopify:\/\/shop_images\/IMG_3c603.jpg",
+            "star-title-b": "the importance of security blankets",
+            "star-text-b": "Security blankets help babies feel safe, secure, and comfortable. They are a continuous reminder of familiar scents, especially when away from parents. Baby security blankets can even help with sleep and can play a vital roll in your babies life!"
+          }
+        },
+        "aa4ae5ad-4342-4af9-be60-6e12acc0eb09": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "washcloth",
+            "main-title": "",
+            "star-title-a": "",
+            "star-text-a": "",
+            "star-title-b": "",
+            "star-text-b": ""
+          }
+        }
+      },
+      "block_order": [
+        "5e594414-20f9-45ab-85e9-f6a5a9fde2ef",
+        "922810c9-2db3-4fa4-8d31-b7d5ffaa1ecf",
+        "aa4ae5ad-4342-4af9-be60-6e12acc0eb09"
+      ],
       "settings": {
       }
     },
