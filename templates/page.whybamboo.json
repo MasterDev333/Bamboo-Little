@@ -6,19 +6,19 @@
         "template--16721555259605__67b8e5cf-b360-492b-b6f2-f82bb85a22ef-16801002168bd65a51-0": {
           "type": "images",
           "settings": {
-            "image": "shopify:\/\/shop_images\/21_1.png"
+            "image": "shopify:\/\/shop_images\/why-1.jpg"
           }
         },
         "3fe7a1a8-9a9c-4f1c-9341-e5e9d92a3cb1": {
           "type": "images",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rompercollectoin_1024x1024_2x_1.png"
+            "image": "shopify:\/\/shop_images\/why-2.jpg"
           }
         },
         "2925a7bc-a470-4181-a8e1-f298f9e1faac": {
           "type": "images",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bamboo_swaddles_1.png"
+            "image": "shopify:\/\/shop_images\/why-3.jpg"
           }
         }
       },
@@ -43,7 +43,7 @@
         "template--16721555259605__052a12d3-c2c9-46dd-b517-a41479fc322a-1680097888ae81cdc8-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-soft.png",
+            "image": "shopify:\/\/shop_images\/why-icon-1.png",
             "title": "",
             "text": "<p>Softer than cotton, hypoallergenic, and so comfy your baby won’t want to wear anything else.<\/p>",
             "link_label": "",
@@ -53,7 +53,7 @@
         "2628a99f-8b36-4dee-b151-0d9e2e1693ff": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-breathable.png",
+            "image": "shopify:\/\/shop_images\/why-icon-2.png",
             "title": "",
             "text": "<p>Breathable and odor-resistant, bamboo fabrics keep little ones cool and dry.<\/p>",
             "link_label": "",
@@ -63,7 +63,7 @@
         "5ffec98f-0a8b-466e-9c82-10205aa8182c": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-eco-friendly.png",
+            "image": "shopify:\/\/shop_images\/why-icon-3.png",
             "title": "",
             "text": "<p>One of nature’s most eco-friendly, renewable, and resilient materials.<\/p>",
             "link_label": "",
