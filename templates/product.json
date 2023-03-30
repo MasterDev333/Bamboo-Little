@@ -75,6 +75,92 @@
         "padding_bottom": 12
       }
     },
+    "802c9bcf-e454-441d-8950-c8a1d85ebb5a": {
+      "type": "product-icons-twc",
+      "blocks": {
+        "5a35bc5a-71ea-43be-8f29-643d16d1737b": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "romper",
+            "icon-image-a": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-a": "",
+            "icon-text-a": "Snuggly soft",
+            "icon-image-b": "shopify:\/\/shop_images\/Breathable_3_65932bcc-958a-4903-8d35-42645829987e.png",
+            "icon-title-b": "",
+            "icon-text-b": "3 degrees cooler than cotton",
+            "icon-image-c": "shopify:\/\/shop_images\/Eco-Friendly_2_8a0fe1b0-8484-4fd9-b4be-a4697cb8ef7c.png",
+            "icon-title-c": "",
+            "icon-text-c": "Made from one of nature's most eco-friendly, renewable, and resilient materials",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "d3b8b3fd-f704-43ac-91f6-29c29a98ef81": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "security",
+            "icon-image-a": "shopify:\/\/shop_images\/Size_1_252b4f0e-528e-4ff4-93a8-a1708a61a14a.png",
+            "icon-title-a": "",
+            "icon-text-a": "Measures 16\" x 16\"",
+            "icon-image-b": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-b": "",
+            "icon-text-b": "Cloudlike blend surrounded with silky satin trim",
+            "icon-image-c": "shopify:\/\/shop_images\/Eco-Friendly_2_8a0fe1b0-8484-4fd9-b4be-a4697cb8ef7c.png",
+            "icon-title-c": "",
+            "icon-text-c": "Made from one of nature's most eco-friendly, renewable, and resilient materials",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "54f4f636-462e-4e67-9269-00fcb426fd77": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "swaddle",
+            "icon-image-a": "shopify:\/\/shop_images\/Size_1_252b4f0e-528e-4ff4-93a8-a1708a61a14a.png",
+            "icon-title-a": "",
+            "icon-text-a": "Measures 43\" x 43\"",
+            "icon-image-b": "shopify:\/\/shop_images\/Soft_2_e69c0816-a3be-4184-b65a-cc1bae293425.png",
+            "icon-title-b": "",
+            "icon-text-b": "4 layers, softer with each wash, softer than cotton",
+            "icon-image-c": "shopify:\/\/shop_images\/Breathable_3_65932bcc-958a-4903-8d35-42645829987e.png",
+            "icon-title-c": "",
+            "icon-text-c": "3 degrees cooler than cotton",
+            "icon-image-d": "shopify:\/\/shop_images\/Care_Instructions_1_6c8803ab-4fb9-466a-a9d8-0eeee0a86459.png",
+            "icon-title-d": "",
+            "icon-text-d": "Wash before first use. Machine wash cold, gentle cycle, tumble dry low. Iron low if desired. Do not bleach."
+          }
+        },
+        "0b1f5bc3-68bb-485b-a51c-b2ddcbd7709a": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "quilt",
+            "icon-title-a": "",
+            "icon-text-a": "",
+            "icon-title-b": "",
+            "icon-text-b": "",
+            "icon-title-c": "",
+            "icon-text-c": "",
+            "icon-title-d": "",
+            "icon-text-d": ""
+          }
+        }
+      },
+      "block_order": [
+        "5a35bc5a-71ea-43be-8f29-643d16d1737b",
+        "d3b8b3fd-f704-43ac-91f6-29c29a98ef81",
+        "54f4f636-462e-4e67-9269-00fcb426fd77",
+        "0b1f5bc3-68bb-485b-a51c-b2ddcbd7709a"
+      ],
+      "settings": {
+      }
+    },
+    "db9c7fe8-12fc-4b39-ac5a-5936bfb67f21": {
+      "type": "product-image-text-twc",
+      "settings": {
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -115,6 +201,8 @@
   },
   "order": [
     "main",
+    "802c9bcf-e454-441d-8950-c8a1d85ebb5a",
+    "db9c7fe8-12fc-4b39-ac5a-5936bfb67f21",
     "related-products",
     "1680179521681e12fb"
   ]
