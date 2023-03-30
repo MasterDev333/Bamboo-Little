@@ -1,0 +1,126 @@
+{{ 'component-product-icons.css' | asset_url | stylesheet_tag }}
+
+{% for block in section.blocks %}
+  {% assign b = block.settings %}
+  {% assign type = product.type | downcase %}
+  <!-- {{ type }} -->
+  {% if b.product_tag contains type %}
+    <section class="page-width">
+      <div id="product-icons" class="product-recommendations__inner gray-divider">
+        <div class="custom-icons grid grid--uniform grid--view-items">
+          <div class="icons-list">
+            <article
+              {{ block.shopify_attributes }}
+              class="grid__item small--one-half medium-up--one-quarter custom-center-all custom-article"
+            >
+              <img loading="lazy" width="80" height="80" src="{{ b.icon-image-a | img_url: '80x80' }}">
+              <h4 class="custom-center-all">{{ b['icon-title-a'] }}</h4>
+              <p class="custom-center-all">{{ b['icon-text-a'] }}</p>
+            </article>
+            <article class="grid__item small--one-half medium-up--one-quarter custom-center-all custom-article">
+              <img loading="lazy" width="80" height="80" src="{{ b.icon-image-b | img_url: '80x80' }}">
+              <h4 class="custom-center-all">{{ b['icon-title-b'] }}</h4>
+              <p class="custom-center-all">{{ b['icon-text-b'] }}</p>
+            </article>
+            <article class="grid__item small--one-half medium-up--one-quarter custom-center-all custom-article">
+              <img loading="lazy" width="80" height="80" src="{{ b.icon-image-c | img_url: '80x80' }}">
+              <h4 class="custom-center-all">{{ b['icon-title-c'] }}</h4>
+              <p class="custom-center-all">{{ b['icon-text-c'] }}</p>
+            </article>
+            <article class="grid__item small--one-half medium-up--one-quarter custom-center-all custom-article">
+              <img loading="lazy" width="80" height="80" src="{{ b.icon-image-d | img_url: '80x80' }}">
+              <h4 class="custom-center-all">{{ b['icon-title-d'] }}</h4>
+              <p class="custom-center-all">{{ b['icon-text-d'] }}</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% schema %}
+{
+  "name": "Custom icons",
+  "blocks": [
+    {
+      "name": "Icons per collection",
+      "type": "Hero",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "product_tag",
+          "label": "Product Type"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon-image-a",
+          "label": "Choose an image"
+        },
+        {
+          "type": "text",
+          "id": "icon-title-a",
+          "label": "Icon Name"
+        },
+        {
+          "type": "textarea",
+          "id": "icon-text-a",
+          "label": "Icon Description"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon-image-b",
+          "label": "Choose an image"
+        },
+        {
+          "type": "text",
+          "id": "icon-title-b",
+          "label": "Icon Name"
+        },
+        {
+          "type": "textarea",
+          "id": "icon-text-b",
+          "label": "Icon Description"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon-image-c",
+          "label": "Choose an image"
+        },
+        {
+          "type": "text",
+          "id": "icon-title-c",
+          "label": "Icon Name"
+        },
+        {
+          "type": "textarea",
+          "id": "icon-text-c",
+          "label": "Icon Description"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon-image-d",
+          "label": "Choose an image"
+        },
+        {
+          "type": "text",
+          "id": "icon-title-d",
+          "label": "Icon Name"
+        },
+        {
+          "type": "textarea",
+          "id": "icon-text-d",
+          "label": "Icon Description"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

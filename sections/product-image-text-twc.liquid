@@ -1,0 +1,107 @@
+{{ 'component-product-image-text.css' | asset_url | stylesheet_tag }}
+
+{% for block in section.blocks %}
+  {% assign b = block.settings %}
+  {% assign type = product.type | downcase %}
+  <!-- {{ type }} -->
+  {% if b.product_tag contains type %}
+    <section class="page-width">
+      <div id="product-image-text" class="product-recommendations__inner gray-divider">
+        <h3 class="main-title custom-center-all">{{ b['main-title'] }}</h3>
+        <div class="image-text-list">
+          <article class="article-feat article-cols">
+            <figure class="article-figure">
+              <img
+                loading="lazy"
+                width="600"
+                height="500"
+                src="{{ b.star-image-a | img_url: '660x440' }}"
+                class="article-img"
+              >
+            </figure>
+            <div class="article-text">
+              <h4>{{ b['star-title-a'] }}</h4>
+              <p>{{ b['star-text-a'] }}</p>
+            </div>
+          </article>
+          <article class="article-feat article-feat-two article-cols">
+            <div class="article-text">
+              <h4>{{ b['star-title-b'] }}</h4>
+              <p>{{ b['star-text-b'] }}</p>
+            </div>
+            <figure class="article-figure">
+              <img
+                loading="lazy"
+                width="600"
+                height="500"
+                src="{{ b.star-image-b | img_url: '660x440' }}"
+                class="article-img"
+              >
+            </figure>
+          </article>
+        </div>
+      </div>
+    </section>
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% schema %}
+{
+  "name": "Custom features",
+  "blocks": [
+    {
+      "name": "Feature per collection",
+      "type": "Hero",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "product_tag",
+          "label": "Product Type"
+        },
+        {
+          "type": "text",
+          "id": "main-title",
+          "label": "Main Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "star-image-a",
+          "label": "Choose an image"
+        },
+        {
+          "type": "text",
+          "id": "star-title-a",
+          "label": "Feature title 1"
+        },
+        {
+          "type": "textarea",
+          "id": "star-text-a",
+          "label": "Feature Description 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "star-image-b",
+          "label": "Choose an image"
+        },
+        {
+          "type": "text",
+          "id": "star-title-b",
+          "label": "Feature title 2"
+        },
+        {
+          "type": "textarea",
+          "id": "star-text-b",
+          "label": "Feature Description 2"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
