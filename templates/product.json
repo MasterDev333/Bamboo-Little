@@ -501,7 +501,7 @@
         "cfe35447-39e5-4701-ab85-e4b360cc4346"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     }
   },
