@@ -528,7 +528,37 @@
             </details>
           </div>
         {% endif %}
-
+        <div class="product__accordion accordion quick-add-hidden">
+          <details id="Details-details">
+            <summary>
+              <div class="summary__title">
+                {% render 'icon-accordion', icon: 'truck' %}
+                <h2 class="h4 accordion__title inline-richtext">
+                  Shipping & Returns
+                </h2>
+              </div>
+              {% render 'icon-caret' %}
+            </summary>
+            <div class="accordion__content rte" id="ProductAccordion-details">
+              We offer free ground shipping on purchases over $75 to the continental US. All orders are shipped within 1-2 business days.
+              <br><br>
+              We will gladly accept unwashed, unworn, and unused items Within 30 days from the date of purchase. 
+              <br><br>
+              Please send returns to the following address:
+              <br><br>
+              Bamboo Little<br>
+              Attn: Customer Service<br>
+              609 Deep Valley Dr, Ste 200<br>
+              Rolling Hills Estates, CA 90274
+              <br><br>
+              Customer is responsible for return shipping fees.
+              <br><br>
+              If you have any questions regarding your return, please email us at <a href="mailto:support@bamboolittle.com">support@bamboolittle.com</a>.
+              <br><br>
+              Bamboo Little does not offer merchandise exchanges. Return the original item for a refund and simply place a new order to get the products you need.
+            </div>
+          </details>
+        </div>
       </product-info>
     </div>
     {%- if section.settings.media_position == 'right' -%}
