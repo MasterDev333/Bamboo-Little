@@ -478,13 +478,13 @@
 }
 .product .product-form__input input[type=radio]+label {
   padding: 8px 12px;
-  border: 1px solid #DDD8CC;
+  border: 1px solid var(--clr-beige);
   color: #6D6E71;
   font-size: 14px;
   line-height: 18px;
 }
 .product .product-form__input input[type=radio]:checked+label {
-  background: #DDD8CC;
+  background: var(--clr-beige);
   color: #6D6E71;
 }
 .product .product-form__input {
@@ -512,7 +512,8 @@
 
 .section .fera-productReviews .fera-productReviews-heading .fera-productReviews-heading-col1 .fera-productReviews-writeReviewLink {
   padding: 16px 20px;
-  background: #DDD8CC !important; 
+  background: var(--clr-beige) !important; 
+  border-color: var(--clr-beige) !important;
   color: #4D4C4C !important;
   text-transform: initial !important;
   font: 400 15px/1 'Geograph', sans-serif;
