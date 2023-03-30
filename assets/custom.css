@@ -69,12 +69,14 @@
   transform: scaleX(0);
   transition: transform .3s ease-in-out;
   will-change: transform;
+  transform-origin: bottom right;
 }
 .link:hover {
   text-decoration: none;
 }
 .link:hover::after {
   transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .button--secondary {
@@ -490,4 +492,20 @@
 }
 .product__info-wrapper .quantity:after {
   border-color:#6D6E71;
+}
+
+.breadcrumbs {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6D6E71;
+}
+.breadcrumbs .link {
+  font-size: 16px;
+  line-height: 24px;
+}
+.breadcrumbs .sep {
+  margin: 0 10px;
 }
