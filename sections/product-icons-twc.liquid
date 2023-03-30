@@ -3,36 +3,33 @@
 {% for block in section.blocks %}
   {% assign b = block.settings %}
   {% assign type = product.type | downcase %}
-  <!-- {{ type }} -->
   {% if b.product_tag contains type %}
-    <section class="page-width">
-      <div id="product-icons" class="product-recommendations__inner gray-divider">
-        <div class="custom-icons grid grid--uniform grid--view-items">
-          <div class="icons-list">
-            <article
-              {{ block.shopify_attributes }}
-              class="grid__item small--one-half medium-up--one-quarter custom-center-all custom-article"
-            >
-              <img loading="lazy" width="80" height="80" src="{{ b.icon-image-a | img_url: '80x80' }}">
-              <h4 class="custom-center-all">{{ b['icon-title-a'] }}</h4>
-              <p class="custom-center-all">{{ b['icon-text-a'] }}</p>
-            </article>
-            <article class="grid__item small--one-half medium-up--one-quarter custom-center-all custom-article">
-              <img loading="lazy" width="80" height="80" src="{{ b.icon-image-b | img_url: '80x80' }}">
-              <h4 class="custom-center-all">{{ b['icon-title-b'] }}</h4>
-              <p class="custom-center-all">{{ b['icon-text-b'] }}</p>
-            </article>
-            <article class="grid__item small--one-half medium-up--one-quarter custom-center-all custom-article">
-              <img loading="lazy" width="80" height="80" src="{{ b.icon-image-c | img_url: '80x80' }}">
-              <h4 class="custom-center-all">{{ b['icon-title-c'] }}</h4>
-              <p class="custom-center-all">{{ b['icon-text-c'] }}</p>
-            </article>
-            <article class="grid__item small--one-half medium-up--one-quarter custom-center-all custom-article">
-              <img loading="lazy" width="80" height="80" src="{{ b.icon-image-d | img_url: '80x80' }}">
-              <h4 class="custom-center-all">{{ b['icon-title-d'] }}</h4>
-              <p class="custom-center-all">{{ b['icon-text-d'] }}</p>
-            </article>
-          </div>
+    <section class="pdp-icon">
+      <div class="page-width">
+        <div class="pdp-icon__grid">
+          <article
+            {{ block.shopify_attributes }}
+            class="pdp-icon__item"
+          >
+            <img loading="lazy" width="80" height="80" src="{{ b.icon-image-a | img_url: '80x80' }}">
+            <h4 class="custom-center-all">{{ b['icon-title-a'] }}</h4>
+            <p class="custom-center-all">{{ b['icon-text-a'] }}</p>
+          </article>
+          <article class="pdp-icon__item">
+            <img loading="lazy" width="80" height="80" src="{{ b.icon-image-b | img_url: '80x80' }}">
+            <h4 class="custom-center-all">{{ b['icon-title-b'] }}</h4>
+            <p class="custom-center-all">{{ b['icon-text-b'] }}</p>
+          </article>
+          <article class="pdp-icon__item">
+            <img loading="lazy" width="80" height="80" src="{{ b.icon-image-c | img_url: '80x80' }}">
+            <h4 class="custom-center-all">{{ b['icon-title-c'] }}</h4>
+            <p class="custom-center-all">{{ b['icon-text-c'] }}</p>
+          </article>
+          <article class="pdp-icon__item">
+            <img loading="lazy" width="80" height="80" src="{{ b.icon-image-d | img_url: '80x80' }}">
+            <h4 class="custom-center-all">{{ b['icon-title-d'] }}</h4>
+            <p class="custom-center-all">{{ b['icon-text-d'] }}</p>
+          </article>
         </div>
       </div>
     </section>
