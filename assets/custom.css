@@ -509,3 +509,12 @@
 .breadcrumbs .sep {
   margin: 0 10px;
 }
+
+.section .fera-productReviews .fera-productReviews-heading .fera-productReviews-heading-col1 .fera-productReviews-writeReviewLink {
+  padding: 16px 20px;
+  background: #DDD8CC !important; 
+  color: #4D4C4C !important;
+  text-transform: initial !important;
+  font: 400 15px/1 'Geograph', sans-serif;
+  letter-spacing: 0.02em;
+}
