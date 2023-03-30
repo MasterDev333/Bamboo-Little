@@ -11,24 +11,48 @@
             {{ block.shopify_attributes }}
             class="pdp-icon__item"
           >
-            <img loading="lazy" width="80" height="80" src="{{ b.icon-image-a | img_url: '80x80' }}">
-            <h4 class="custom-center-all">{{ b['icon-title-a'] }}</h4>
-            <p class="custom-center-all">{{ b['icon-text-a'] }}</p>
+            {% if b['icon-image-a'] %}
+              <img loading="lazy" width="80" height="80" src="{{ b.icon-image-a | img_url: '80x80' }}">
+            {% endif %}
+            {% if b['icon-title-a'] %}
+              <h4 class="custom-center-all">{{ b['icon-title-a'] }}</h4>
+            {% endif %}
+            {% if b['icon-text-a'] %}
+              <p class="custom-center-all">{{ b['icon-text-a'] }}</p>
+            {% endif %}
           </article>
           <article class="pdp-icon__item">
-            <img loading="lazy" width="80" height="80" src="{{ b.icon-image-b | img_url: '80x80' }}">
-            <h4 class="custom-center-all">{{ b['icon-title-b'] }}</h4>
-            <p class="custom-center-all">{{ b['icon-text-b'] }}</p>
+            {% if b['icon-image-b'] %}
+              <img loading="lazy" width="80" height="80" src="{{ b.icon-image-b | img_url: '80x80' }}">
+            {% endif %}
+            {% if b['icon-title-b'] %}
+              <h4 class="custom-center-all">{{ b['icon-title-b'] }}</h4>
+            {% endif %}
+            {% if b['icon-text-b'] %}
+              <p class="custom-center-all">{{ b['icon-text-b'] }}</p>
+            {% endif %}
           </article>
           <article class="pdp-icon__item">
-            <img loading="lazy" width="80" height="80" src="{{ b.icon-image-c | img_url: '80x80' }}">
-            <h4 class="custom-center-all">{{ b['icon-title-c'] }}</h4>
-            <p class="custom-center-all">{{ b['icon-text-c'] }}</p>
+            {% if b['icon-image-c'] %}
+              <img loading="lazy" width="80" height="80" src="{{ b.icon-image-c | img_url: '80x80' }}">
+            {% endif %}
+            {% if b['icon-title-c'] %}
+              <h4 class="custom-center-all">{{ b['icon-title-c'] }}</h4>
+            {% endif %}
+            {% if b['icon-text-c'] %}
+              <p class="custom-center-all">{{ b['icon-text-c'] }}</p>
+            {% endif %}
           </article>
           <article class="pdp-icon__item">
-            <img loading="lazy" width="80" height="80" src="{{ b.icon-image-d | img_url: '80x80' }}">
-            <h4 class="custom-center-all">{{ b['icon-title-d'] }}</h4>
-            <p class="custom-center-all">{{ b['icon-text-d'] }}</p>
+            {% if b['icon-image-d'] %}
+              <img loading="lazy" width="80" height="80" src="{{ b.icon-image-d | img_url: '80x80' }}">
+            {% endif %}
+            {% if b['icon-title-d'] %}
+              <h4 class="custom-center-all">{{ b['icon-title-d'] }}</h4>
+            {% endif %}
+            {% if b['icon-text-d'] %}
+              <p class="custom-center-all">{{ b['icon-text-d'] }}</p>
+            {% endif %}
           </article>
         </div>
       </div>
