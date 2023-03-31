@@ -263,6 +263,20 @@
       </div>
     </noscript>
   {%- endif -%}
+  {%- if section.blocks.size > 1 -%}
+    <ul class="slider-dots">
+      {%- for media in product.media -%}
+        <li>
+          <button
+            class="slider-dot{% if forloop.index == 1 %} is-active{% endif %}"
+            name="dot"
+            data-index="{% echo forloop.index %}"
+            aria-label="Product Gallery Slide {% echo forloop.index %}"
+          ></button>
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
 </slideshow-component>
 
 {%- if request.design_mode -%}

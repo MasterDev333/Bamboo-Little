@@ -595,7 +595,7 @@ product-info .quantity:before {
     --grid-mobile-vertical-spacing: 15px;
   }
 }
-
+slideshow-component .slider-buttons,
 slider-component .slider-buttons {
   display: none !important;
 }
