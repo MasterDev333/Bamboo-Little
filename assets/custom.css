@@ -596,6 +596,9 @@ product-info .quantity:before {
   }
 }
 
+slider-component .slider-buttons {
+  display: none !important;
+}
 .slider-dots {
   display: flex;
   padding-left: 0;
