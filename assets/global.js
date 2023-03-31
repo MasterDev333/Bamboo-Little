@@ -667,7 +667,7 @@ class SliderComponent extends HTMLElement {
     this.activeDot.classList.remove('is-active');
     event.currentTarget.classList.add('is-active');
     this.activeDot = event.currentTarget;
-    this.slideScrollPosition = step * this.sliderItemOffset;
+    this.slideScrollPosition = (step - 1) * this.sliderItemOffset;
     this.slider.scrollTo({
       left: this.slideScrollPosition
     });
