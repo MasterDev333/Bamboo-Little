@@ -49,7 +49,7 @@
         "cta_url": "shopify:\/\/collections\/footie-pajamas",
         "cta_text": "Shop footies",
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "large",
         "slider_visual": "counter",
         "auto_rotate": true,
         "change_slides_speed": 5,
