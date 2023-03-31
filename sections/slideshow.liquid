@@ -265,13 +265,13 @@
   {%- endif -%}
   {%- if section.blocks.size > 1 -%}
     <ul class="slider-dots">
-      {%- for media in product.media -%}
+      {%- for i in (1..section.blocks.size) -%}
         <li>
           <button
-            class="slider-dot{% if forloop.index == 1 %} is-active{% endif %}"
+            class="slider-dot{% if i == 1 %} is-active{% endif %}"
             name="dot"
-            data-index="{% echo forloop.index %}"
-            aria-label="Product Gallery Slide {% echo forloop.index %}"
+            data-index="{% echo i %}"
+            aria-label="Product Gallery Slide {% echo i %}"
           ></button>
         </li>
       {%- endfor -%}
