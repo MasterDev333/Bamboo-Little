@@ -357,7 +357,7 @@
 }
 
 /* Banner */
-.section-image-banner {
+.section-slideshow {
   display: flex;
   flex-direction: column;
 }
