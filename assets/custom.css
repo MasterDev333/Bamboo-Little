@@ -113,6 +113,10 @@
     color: #fff;
   }
 }
+/* Header Styles */
+.header-wrapper {
+  border-bottom: 1px solid #E1E3E5;
+}
 
 /* Footer Styles */
 .footer {
@@ -337,8 +341,8 @@
     line-height: 1.2;
   }
   .section-main .main-page-content {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 27px;
   }
 }
 
@@ -505,12 +509,12 @@
   display: flex;
   list-style: none;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 24px;
   color: #6D6E71;
 }
 .breadcrumbs .link {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 24px;
 }
 .breadcrumbs .sep {
