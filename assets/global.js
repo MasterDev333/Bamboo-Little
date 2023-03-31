@@ -663,6 +663,7 @@ class SlideshowComponent extends SliderComponent {
   constructor() {
     super();
     this.sliderControlWrapper = this.querySelector('.slider-buttons');
+    this.sliderDots = this.querySelector('.slider-dots');
     this.enableSliderLooping = true;
 
     if (!this.sliderControlWrapper) return;
@@ -703,6 +704,9 @@ class SlideshowComponent extends SliderComponent {
       this.slideScrollPosition = this.slider.scrollLeft + this.sliderFirstItemNode.clientWidth * this.sliderItemsToShow.length;
     } else if (isLastSlide && event.currentTarget.name === 'next') {
       this.slideScrollPosition = 0;
+    }
+    if (event.currentTarget.name === 'dot') {
+      console.log(event.currentTarget, event);
     }
     this.slider.scrollTo({
       left: this.slideScrollPosition
