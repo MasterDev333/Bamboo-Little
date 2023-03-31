@@ -581,6 +581,7 @@ class SliderComponent extends HTMLElement {
     this.pageTotalElement = this.querySelector('.slider-counter--total');
     this.prevButton = this.querySelector('button[name="previous"]');
     this.nextButton = this.querySelector('button[name="next"]');
+    this.sliderDots = this.querySelectorAll('.slider-dot');
 
     if (!this.slider || !this.nextButton) return;
 
@@ -591,6 +592,9 @@ class SliderComponent extends HTMLElement {
     this.slider.addEventListener('scroll', this.update.bind(this));
     this.prevButton.addEventListener('click', this.onButtonClick.bind(this));
     this.nextButton.addEventListener('click', this.onButtonClick.bind(this));
+    this.sliderDots.forEach((sliderDot) => {
+      sliderDot.addEventListener('click', this.onDotClick.bind(this));
+    });
   }
 
   initPages() {
@@ -655,6 +659,14 @@ class SliderComponent extends HTMLElement {
       left: this.slideScrollPosition
     });
   }
+
+  onDotClick(event) {
+    event.preventDefault();
+    const step = event.currentTarget.dataset.index || 1;
+    this.slider.scrollTo({
+      left: this.slideScrollPosition
+    });
+  }
 }
 
 customElements.define('slider-component', SliderComponent);
@@ -663,7 +675,6 @@ class SlideshowComponent extends SliderComponent {
   constructor() {
     super();
     this.sliderControlWrapper = this.querySelector('.slider-buttons');
-    this.sliderDots = this.querySelector('.slider-dots');
     this.enableSliderLooping = true;
 
     if (!this.sliderControlWrapper) return;
@@ -704,9 +715,6 @@ class SlideshowComponent extends SliderComponent {
       this.slideScrollPosition = this.slider.scrollLeft + this.sliderFirstItemNode.clientWidth * this.sliderItemsToShow.length;
     } else if (isLastSlide && event.currentTarget.name === 'next') {
       this.slideScrollPosition = 0;
-    }
-    if (event.currentTarget.name === 'dot') {
-      console.log(event.currentTarget, event);
     }
     this.slider.scrollTo({
       left: this.slideScrollPosition
