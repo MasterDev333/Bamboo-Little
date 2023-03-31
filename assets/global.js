@@ -662,7 +662,7 @@ class SliderComponent extends HTMLElement {
 
   onDotClick(event) {
     event.preventDefault();
-    const step = event.currentTarget.dataset.index || 1;
+    this.slideScrollPosition = event.currentTarget.dataset.index || 1;
     this.slider.scrollTo({
       left: this.slideScrollPosition
     });
