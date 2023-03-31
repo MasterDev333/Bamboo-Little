@@ -582,6 +582,7 @@ class SliderComponent extends HTMLElement {
     this.prevButton = this.querySelector('button[name="previous"]');
     this.nextButton = this.querySelector('button[name="next"]');
     this.sliderDots = this.querySelectorAll('.slider-dot');
+    this.activeDot = this.querySelector('.slider-dot.is-active');
 
     if (!this.slider || !this.nextButton) return;
 
@@ -663,8 +664,9 @@ class SliderComponent extends HTMLElement {
   onDotClick(event) {
     event.preventDefault();
     const step = parseInt(event.currentTarget.dataset.index) || 1;
-    this.sliderDots.querySelector('.is-active').classList.remove('is-active');
+    this.activeDot.classList.remove('is-active');
     event.currentTarget.classList.add('is-active');
+    this.activeDot = event.currentTarget;
     this.slideScrollPosition = step * this.sliderItemOffset;
     this.slider.scrollTo({
       left: this.slideScrollPosition
