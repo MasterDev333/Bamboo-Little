@@ -160,6 +160,7 @@
 }
 @media only screen and (max-width: 749px) {
   .footer .footer-block .footer-block__heading {
+    margin-bottom: 1rem;
     font-size: 17px;
   }
 }
@@ -547,7 +548,15 @@
 .section .fera-productReviews-review-product-link {
   color: inherit !important;
 }
-
+.section .fera-productReviews.fera-productReviews--list.fera-container--thin .fera-productReviews-body .fera-productReviews-reviews .fera-productReviews-review .fera-productReviews-review-customer-name {
+  font-family: 'Geograph', sans-serif;
+  font-weight: 400;
+}
+@media only screen and (max-width: 749px) {
+  .section .fera-productReviews.fera-productReviews--list.fera-container--thin .fera-productReviews-body .fera-productReviews-reviews .fera-productReviews-review .fera-productReviews-review-customer-name {
+    font-size: 10px;
+  }
+}
 .cart-count-bubble {
   background: #4D4C4C;
   color: #fff;
@@ -572,4 +581,11 @@ product-info .accordion__content,
 product-info .product__description p {
   font-size: 1.3rem;
   line-height: 2.2rem;
+}
+@media only screen and (max-width: 749px) {
+  product-recommendations .product-grid {
+    --grid-mobile-horizontal-spacing: 15px;
+    --grid-mobile-vertical-spacing: 15px;
+  }
+
 }
