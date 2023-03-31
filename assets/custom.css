@@ -556,6 +556,9 @@
   .section .fera-productReviews.fera-productReviews--list.fera-container--thin .fera-productReviews-body .fera-productReviews-reviews .fera-productReviews-review .fera-productReviews-review-customer-name {
     font-size: 10px;
   }
+  .section .fera-productReviews .fera-productReviews-heading .fera-productReviews-heading-col2 .fera-productReviews-totals-col1 .fera-productReviews-avgRating .fera-productReviews-avgRating-val {
+    font-size: 48px;
+  }
 }
 .cart-count-bubble {
   background: #4D4C4C;
@@ -582,6 +585,10 @@ product-info .product__description p {
   font-size: 1.3rem;
   line-height: 2.2rem;
 }
+product-info .quantity:before {
+  background-color: transparent;
+}
+
 @media only screen and (max-width: 749px) {
   product-recommendations .product-grid {
     --grid-mobile-horizontal-spacing: 15px;
