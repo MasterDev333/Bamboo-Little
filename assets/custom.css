@@ -532,6 +532,12 @@
   font: 400 15px/1 'Geograph', sans-serif;
   letter-spacing: 0.02em;
 }
+.section .fera-productReviews.fera-productReviews--list .fera-productReviews-body .fera-productReviews-reviews .fera-productReviews-review .fera-productReviews-review-product {
+  font-style: normal;
+}
+.section .fera-productReviews-review-product-link {
+  color: inherit !important;
+}
 
 .cart-count-bubble {
   background: #4D4C4C;
