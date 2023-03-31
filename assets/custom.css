@@ -509,13 +509,41 @@
 .breadcrumbs .sep {
   margin: 0 10px;
 }
-
+.section .fera-productReviews .fera-productReviews-heading .fera-productReviews-heading-col1 .fera-productReviews-heading-header {
+  margin-bottom: 18px;
+}
 .section .fera-productReviews .fera-productReviews-heading .fera-productReviews-heading-col1 .fera-productReviews-writeReviewLink {
-  padding: 16px 20px;
+  padding: 13px 20px;
   background: var(--clr-beige) !important; 
   border-color: var(--clr-beige) !important;
   color: #4D4C4C !important;
   text-transform: initial !important;
   font: 400 15px/1 'Geograph', sans-serif;
   letter-spacing: 0.02em;
+}
+
+.cart-count-bubble {
+  background: #4D4C4C;
+  color: #fff;
+}
+
+product-recommendations .card__heading a {
+  font-size: 20px;
+  line-height: 1.3;
+}
+product-info .fera-stars-rating {
+  color: #DDD8CC;
+}
+product-info .price .price-item,
+product-info .price--on-sale .price-item--regular {
+  font-size: 1.6rem;
+}
+product-info div[data-fera-widget] {
+  margin-bottom: 0;
+}
+
+product-info .accordion__content,
+product-info .product__description p {
+  font-size: 1.3rem;
+  line-height: 2.2rem;
 }
