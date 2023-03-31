@@ -45,6 +45,9 @@
         "5aaa82ec-6ad1-4325-8890-50ef62f0695d"
       ],
       "settings": {
+        "heading": "Loveys you'll love",
+        "cta_url": "shopify:\/\/collections\/footie-pajamas",
+        "cta_text": "Shop footies",
         "layout": "full_bleed",
         "slide_height": "medium",
         "slider_visual": "counter",
@@ -53,25 +56,6 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "settings": {
-        "heading": "Loveys you'll love",
-        "cta_url": "shopify:\/\/collections\/footie-pajamas",
-        "cta_text": "Shop footies",
-        "image": "shopify:\/\/shop_images\/bamboo_swaddles_1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "6ae49d9c-7d5a-4305-a7cc-e60e9a3a2c18": {
@@ -248,7 +232,6 @@
   },
   "order": [
     "689638d1-ac81-432a-a608-f51076aa87e2",
-    "image_banner",
     "6ae49d9c-7d5a-4305-a7cc-e60e9a3a2c18",
     "b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f",
     "55837fa5-cbc4-4136-8930-71ac84da15c6",
