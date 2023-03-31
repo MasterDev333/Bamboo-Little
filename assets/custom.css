@@ -172,9 +172,16 @@
   background: transparent;
   outline: none;
   color: #EDEDEE;
+  font-size: 1.4rem;
 }
 .footer .newsletter-form__field-wrapper .field__label {
+  top: 1.4rem;
   color: #EDEDEE;
+  font-size: 1.4rem;
+}
+.footer .newsletter-form__field-wrapper .field__input:focus ~ .field__label {
+  top: 6px;
+  font-size: 1rem;
 }
 .footer .newsletter-form__button path {
   fill: #ededee;
