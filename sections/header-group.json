@@ -23,6 +23,22 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "141d875f-bdc3-4ded-a739-5ff0282e9571": {
+          "type": "logo_image",
+          "settings": {
+            "menu_enable": true,
+            "image": "shopify:\/\/shop_images\/home-cat-1.png",
+            "mega_link": "1",
+            "link": "",
+            "title": "Soft enough for the most sensitive skin.",
+            "subtitle": "Shop footies"
+          }
+        }
+      },
+      "block_order": [
+        "141d875f-bdc3-4ded-a739-5ff0282e9571"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
