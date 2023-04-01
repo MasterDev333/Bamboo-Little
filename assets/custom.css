@@ -624,7 +624,7 @@ slider-component .slider-buttons {
   background: #6D6E71;
 }
 @media only screen and (min-width: 750px) {
-  .slider-dots {
+  slider-component .slider-dots {
     display: none;
   }
 }
