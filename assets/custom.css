@@ -133,6 +133,10 @@ h2, .h2 {
 header .link::after {
   display: none;
 }
+.menu-drawer__menu-item {
+  font-size: 16px;
+  line-height: 24px;
+}
 @media only screen and (min-width: 990px) {
   .mega-menu .header__menu-item span {
     position: relative;
@@ -158,7 +162,7 @@ header .link::after {
   .header__menu-item .header__active-menu-item {
     font-weight: 500;
   }
-  .mega-menu .header__menu-item .header__active-menu-item::after {
+  .mega-menu .header__menu-item[aria-expanded=true] span::after {
     opacity: 1;
   }
   details[open]>.header__menu-item {
