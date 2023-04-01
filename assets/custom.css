@@ -133,48 +133,75 @@ h2, .h2 {
 header .link::after {
   display: none;
 }
-.mega-menu .header__menu-item span {
-  position: relative;
-}
-.mega-menu .header__menu-item span::after {
-  position: absolute;
-  content: '';
-  left: 0;
-  bottom: -28px;
-  width: 100%;
-  border-bottom: 2px solid #6d6e71;
-  opacity: 0;
-}
-.header__menu-item span {
-  font: 400 14px/21px 'Geograph', sans-serif;
-  text-transform: capitalize;
-  text-decoration: none;
-}
-.header__menu-item:hover span {
-  font-weight: 500;
-  text-decoration: none;
-}
-.header__menu-item .header__active-menu-item {
-  font-weight: 500;
-}
-.mega-menu .header__menu-item .header__active-menu-item::after {
-  opacity: 1;
-}
-details[open]>.header__menu-item {
-  text-decoration: none;
-}
-.mega-menu__link {
-  font: 400 16px/24px 'Geograph', sans-serif;
-  text-transform: capitalize;
-  transition: all .3s ease-in-out;
-}
-.mega-menu__link:hover, .mega-menu__link--active {
-  font-weight: 500;
-  text-decoration: none;
-}
-.mega-menu__content {
-  padding-top: 40px;
-  padding-bottom: 40px;
+@media only screen and (min-width: 750px) {
+  .mega-menu .header__menu-item span {
+    position: relative;
+  }
+  .mega-menu .header__menu-item span::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -28px;
+    width: 100%;
+    border-bottom: 2px solid #6d6e71;
+    opacity: 0;
+  }
+  .header__menu-item span {
+    font: 400 14px/21px 'Geograph', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .header__menu-item:hover span {
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .header__menu-item .header__active-menu-item {
+    font-weight: 500;
+  }
+  .mega-menu .header__menu-item .header__active-menu-item::after {
+    opacity: 1;
+  }
+  details[open]>.header__menu-item {
+    text-decoration: none;
+  }
+  .mega-menu__link {
+    font: 400 16px/24px 'Geograph', sans-serif;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+  }
+  .mega-menu__link:hover, .mega-menu__link--active {
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .mega-menu__content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .mega-menu__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mega-menu__inner .mega-menu__list {
+    padding-left: 0;
+    max-width: 640px;
+  }
+  .mega-menu__inner .menu-drawer__block {
+    display: grid;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #E1E3E5;
+    grid-template-columns: 60% 40%;
+    grid-gap: 20px;
+    max-width: 520px;
+  }
+  .menu-drawer__block-title {
+    margin: 0 0 16px;
+    font: 400 13px/18px 'Geograph', sans-serif;
+    letter-spacing: 0.02em;
+  }
+  .mega-menu__inner .mega-menu__list {
+    display: block;
+  }
 }
 
 /* Footer Styles */
