@@ -230,8 +230,17 @@ header .link::after {
     font-size: 14px;
     line-height: 1;
   }
-  summary.list-menu__item {
+  header summary.list-menu__item {
     padding-right: 1.2rem;
+  }
+  header summary.list-menu__item svg {
+    display: none;
+  }
+  .menu-drawer__block-img img {
+    display: block;
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
   }
 }
 @media only screen and (min-width: 1024px) {
