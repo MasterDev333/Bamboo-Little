@@ -164,28 +164,28 @@ header .link::after {
   details[open]>.header__menu-item {
     text-decoration: none;
   }
-  .mega-menu__link {
+  .mega-menu .mega-menu__link {
     font: 400 16px/24px 'Geograph', sans-serif;
     text-transform: capitalize;
     transition: all .3s ease-in-out;
   }
-  .mega-menu__link:hover, .mega-menu__link--active {
+  .mega-menu .mega-menu__link:hover, .mega-menu__link--active {
     font-weight: 500;
     text-decoration: none;
   }
-  .mega-menu__content {
+  .mega-menu .mega-menu__content {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .mega-menu__inner {
+  .mega-menu .mega-menu__inner {
     display: flex;
     justify-content: space-between;
   }
-  .mega-menu__inner .mega-menu__list {
+  .mega-menu .mega-menu__inner .mega-menu__list {
     padding-left: 0;
     max-width: 640px;
   }
-  .mega-menu__inner .menu-drawer__block {
+  .mega-menu .mega-menu__inner .menu-drawer__block {
     display: grid;
     margin-left: 20px;
     padding-left: 20px;
@@ -199,8 +199,24 @@ header .link::after {
     font: 400 13px/18px 'Geograph', sans-serif;
     letter-spacing: 0.02em;
   }
-  .mega-menu__inner .mega-menu__list {
+  .mega-menu .mega-menu__inner .mega-menu__list {
     display: block;
+  }
+  .mega-menu .mega-menu__list {
+    position: relative;
+    flex-grow: 1;
+  }
+  .mega-menu .mega-menu__list > li {
+    width: 25%;
+  }
+  .mega-menu .mega-menu__list > li > ul {
+    position: absolute;
+    top: 0;
+    left: 25%;
+  }
+  .mega-menu .mega-menu__list > li > ul a {
+    font-size: 14px;
+    line-height: 1;
   }
 }
 
