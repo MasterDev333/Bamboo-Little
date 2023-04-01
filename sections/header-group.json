@@ -30,9 +30,9 @@
             "menu_enable": true,
             "image": "shopify:\/\/shop_images\/home-cat-1.png",
             "mega_link": "blankets",
-            "link": "",
             "title": "Soft enough for the most sensitive skin.",
-            "subtitle": "Shop footies"
+            "cta_url": "shopify:\/\/collections\/footie-pajamas",
+            "cta_text": "Shop footies"
           }
         },
         "3fbcf43e-5103-46cd-af4e-6ac6b2c57f7b": {
@@ -40,9 +40,9 @@
           "settings": {
             "menu_enable": true,
             "mega_link": "1",
-            "link": "",
             "title": "",
-            "subtitle": ""
+            "cta_url": "",
+            "cta_text": ""
           }
         }
       },
