@@ -133,7 +133,7 @@ h2, .h2 {
 header .link::after {
   display: none;
 }
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 990px) {
   .mega-menu .header__menu-item span {
     position: relative;
   }
@@ -147,7 +147,7 @@ header .link::after {
     opacity: 0;
   }
   .header__menu-item span {
-    font: 400 14px/21px 'Geograph', sans-serif;
+    font: 400 12px/21px 'Geograph', sans-serif;
     text-transform: capitalize;
     text-decoration: none;
   }
@@ -167,9 +167,11 @@ header .link::after {
   .mega-menu .mega-menu__link {
     font: 400 16px/24px 'Geograph', sans-serif;
     text-transform: capitalize;
+    text-decoration: none;
     transition: all .3s ease-in-out;
   }
-  .mega-menu .mega-menu__link:hover, .mega-menu__link--active {
+  .mega-menu .mega-menu__link:hover, 
+  .mega-menu .mega-menu__link--active {
     font-weight: 500;
     text-decoration: none;
   }
@@ -186,13 +188,9 @@ header .link::after {
     max-width: 640px;
   }
   .mega-menu .mega-menu__inner .menu-drawer__block {
-    display: grid;
     margin-left: 20px;
     padding-left: 20px;
     border-left: 1px solid #E1E3E5;
-    grid-template-columns: 60% 40%;
-    grid-gap: 20px;
-    max-width: 520px;
   }
   .menu-drawer__block-title {
     margin: 0 0 16px;
@@ -220,14 +218,31 @@ header .link::after {
     pointer-events: none;
     transition: all .3s ease-in-out;
   }
-  .mega-menu .mega-menu__list > li > a:focus + ul {
+  .mega-menu .mega-menu__list > li:hover ul {
     opacity: 1;
     visibility: visible;
     pointer-events: all;
   }
+  .mega-menu .mega-menu__list > li:hover > a {
+    font-weight: 500;
+  }
   .mega-menu .mega-menu__list > li > ul a {
     font-size: 14px;
     line-height: 1;
+  }
+  summary.list-menu__item {
+    padding-right: 1.2rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .header__menu-item span {
+    font-size: 14px;
+  }
+  .mega-menu .mega-menu__inner .menu-drawer__block {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 20px;
+    max-width: 520px;
   }
 }
 
