@@ -213,6 +213,17 @@ header .link::after {
     position: absolute;
     top: 0;
     left: 25%;
+    width: 75%;
+    column-count: 3;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+  }
+  .mega-menu .mega-menu__list > li > a:focus + ul {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
   }
   .mega-menu .mega-menu__list > li > ul a {
     font-size: 14px;
