@@ -39,7 +39,8 @@
           "type": "logo_image",
           "settings": {
             "menu_enable": true,
-            "mega_link": "1",
+            "image": "shopify:\/\/shop_images\/about-1.png",
+            "mega_link": "bedtime",
             "title": "",
             "cta_url": "",
             "cta_text": ""
