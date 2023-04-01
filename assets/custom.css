@@ -597,13 +597,17 @@ product-info .product__description p {
 product-info .quantity:before {
   background-color: transparent;
 }
-
+shopify-payment-terms {
+  display: none !important;
+}
 @media only screen and (max-width: 749px) {
   product-recommendations .product-grid {
     --grid-mobile-horizontal-spacing: 15px;
     --grid-mobile-vertical-spacing: 15px;
   }
 }
+
+/* Slider */
 slideshow-component .slider-buttons,
 slider-component .slider-buttons {
   display: none !important;
