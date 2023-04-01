@@ -29,15 +29,26 @@
           "settings": {
             "menu_enable": true,
             "image": "shopify:\/\/shop_images\/home-cat-1.png",
-            "mega_link": "1",
+            "mega_link": "blankets",
             "link": "",
             "title": "Soft enough for the most sensitive skin.",
             "subtitle": "Shop footies"
           }
+        },
+        "3fbcf43e-5103-46cd-af4e-6ac6b2c57f7b": {
+          "type": "logo_image",
+          "settings": {
+            "menu_enable": true,
+            "mega_link": "1",
+            "link": "",
+            "title": "",
+            "subtitle": ""
+          }
         }
       },
       "block_order": [
-        "141d875f-bdc3-4ded-a739-5ff0282e9571"
+        "141d875f-bdc3-4ded-a739-5ff0282e9571",
+        "3fbcf43e-5103-46cd-af4e-6ac6b2c57f7b"
       ],
       "settings": {
         "logo_position": "middle-left",
