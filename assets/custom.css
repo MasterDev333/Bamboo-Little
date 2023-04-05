@@ -296,7 +296,7 @@ header .link::after {
   transform: scaleX(1);
 }
 .footer .footer-block .footer-block__heading {
-  margin-bottom: 1.6rem;
+  margin-bottom: 0.5rem;
   color: #ededee;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -505,13 +505,16 @@ header .link::after {
   flex-direction: column;
 }
 .heading-btn {
-  padding: 40px 0;
+  padding: 40px 0 57px;
 }
 .heading-btn h1 {
   margin-top: 0;
   margin-bottom: 3.2rem;
 }
 @media only screen and (min-width: 750px) {
+  .heading-btn {
+    padding-bottom: 40px;
+  }
   .heading-btn .page-width {
     display: flex;
     align-items: center;
@@ -698,6 +701,7 @@ header .link::after {
 @media only screen and (max-width: 749px) {
   .section .fera-productReviews.fera-productReviews--list.fera-container--thin .fera-productReviews-body .fera-productReviews-reviews .fera-productReviews-review .fera-productReviews-review-customer-name {
     font-size: 10px;
+    font-family: 'Adagio_Serif', sans-serif;
   }
   .section .fera-productReviews .fera-productReviews-heading .fera-productReviews-heading-col2 .fera-productReviews-totals-col1 .fera-productReviews-avgRating .fera-productReviews-avgRating-val {
     font-size: 48px;
@@ -738,6 +742,9 @@ shopify-payment-terms {
   product-recommendations .product-grid {
     --grid-mobile-horizontal-spacing: 15px;
     --grid-mobile-vertical-spacing: 15px;
+  }
+  product-info .product__title {
+    margin-top: 2rem;
   }
 }
 
