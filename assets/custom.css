@@ -87,9 +87,11 @@ h2, .h2 {
 .link:hover {
   text-decoration: none;
 }
-.link:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+@media only screen and (min-width: 768px) {
+  .link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 }
 
 .button--secondary {
@@ -169,6 +171,7 @@ header .link::after {
     text-decoration: none;
   }
   .mega-menu .mega-menu__link {
+    margin-bottom: 0 !important;
     font: 400 16px/24px 'Geograph', sans-serif;
     text-transform: capitalize;
     text-decoration: none;
@@ -245,6 +248,9 @@ header .link::after {
     width: 300px;
     height: 180px;
     object-fit: cover;
+  }
+  .header--middle-left .header__inline-menu {
+    margin-left: 1rem;
   }
 }
 @media only screen and (min-width: 1024px) {
