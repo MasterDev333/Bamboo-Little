@@ -729,8 +729,8 @@ product-info div[data-fera-widget] {
 
 product-info .accordion__content,
 product-info .product__description p {
-  font-size: 1.3rem;
-  line-height: 2.2rem;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
 }
 product-info .quantity:before {
   background-color: transparent;
@@ -745,6 +745,11 @@ shopify-payment-terms {
   }
   product-info .product__title {
     margin-top: 2rem;
+  }
+  product-info .accordion__content,
+  product-info .product__description p {
+    font-size: 1.3rem;
+    line-height: 2.2rem;
   }
 }
 
