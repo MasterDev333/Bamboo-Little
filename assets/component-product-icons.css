@@ -11,7 +11,7 @@
   text-align: center;
 }
 .pdp-icon__item img {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .pdp-icon__item p {
   margin: 0;
@@ -24,9 +24,6 @@
   }
   .pdp-icon__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .pdp-icon__item img {
-    margin-bottom: 1rem;
   }
   .pdp-icon__item p {
     font-size: 10px;
