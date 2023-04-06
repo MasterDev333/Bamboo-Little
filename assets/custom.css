@@ -697,7 +697,7 @@ header .link::after {
 }
 .fera-productReviews.fera-productReviews--list .fera-productReviews-body .fera-productReviews-reviews .fera-productReviews-review .fera-productReviews-review-heading {
   font-family: 'Adagio_Serif', sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 @media only screen and (max-width: 749px) {
   .section .fera-productReviews.fera-productReviews--list.fera-container--thin .fera-productReviews-body .fera-productReviews-reviews .fera-productReviews-review .fera-productReviews-review-customer-name {
