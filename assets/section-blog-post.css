@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
   .article-template__hero-small {
-    height: 22rem;
+    height: 30rem;
   }
 
   .article-template__hero-medium {
@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 990px) {
   .article-template__hero-small {
-    height: 27.5rem;
+    height: 43rem;
   }
 
   .article-template__hero-medium {
@@ -61,12 +61,14 @@
 
 @media screen and (min-width: 750px) {
   .article-template header {
-    margin-top: 5rem;
+    margin-top: 6.4rem;
+    margin-bottom: 3.4rem;
   }
 }
 
 .article-template__title {
   margin: 0;
+  text-align: center;
 }
 
 .article-template__title:not(:only-child) {
