@@ -793,6 +793,6 @@ slider-component .slider-buttons {
   --ratio-percent: 100% !important;
 }
 
-.collection-list + .pagination-wrapper {
+.collection-list ~ .pagination-wrapper {
   margin-bottom: 3rem;
 }
