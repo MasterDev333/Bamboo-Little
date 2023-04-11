@@ -172,6 +172,18 @@
   }
 }
 
+
+#bloggy--article ol {
+  padding-left: 0;
+}
+#bloggy--article ol li {
+  font-size: 24px;
+  line-height: 1;
+  font-family: var(--font-heading-family);
+}
+#bloggy--article .bggle_button {
+  display: none;
+}
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
 }
@@ -180,8 +192,10 @@
   margin-block: 4rem;
 }
 @media screen and (min-width: 750px) {
-  
   .article-template__back {
     margin-block: 6.4rem;
+  }
+  #bloggy--article ol li {
+    font-size: 30px;
   }
 }
