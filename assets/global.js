@@ -647,8 +647,10 @@ class SliderComponent extends HTMLElement {
     }
 
     // update dot on slide change
+    console.log(this.currentPage);
     this.activeDot.classList.remove('is-active');
     this.sliderDots[this.currentPage].classList.add('is-active');
+    this.activeDot = this.sliderDots[this.currentPage];
   }
 
   isSlideVisible(element, offset = 0) {
@@ -668,9 +670,6 @@ class SliderComponent extends HTMLElement {
   onDotClick(event) {
     event.preventDefault();
     const step = parseInt(event.currentTarget.dataset.index) || 1;
-    this.activeDot.classList.remove('is-active');
-    event.currentTarget.classList.add('is-active');
-    this.activeDot = event.currentTarget;
     this.slideScrollPosition = (step - 1) * this.sliderItemOffset;
     this.slider.scrollTo({
       left: this.slideScrollPosition
