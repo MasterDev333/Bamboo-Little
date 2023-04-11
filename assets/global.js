@@ -645,6 +645,10 @@ class SliderComponent extends HTMLElement {
     } else {
       this.nextButton.removeAttribute('disabled');
     }
+
+    // update dot on slide change
+    this.activeDot.classList.remove('is-active');
+    this.sliderDots[this.currentPage].classList.add('is-active');
   }
 
   isSlideVisible(element, offset = 0) {
