@@ -76,6 +76,14 @@
 .article-card__excerpt {
   width: 100%;
   margin-top: 1.2rem;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+          line-clamp: 3; 
+  -webkit-box-orient: vertical;
 }
 
 .article-card__link:not(:only-child) {
@@ -85,6 +93,10 @@
 @media screen and (min-width: 990px) {
   .article-card__link:not(:only-child) {
     margin-right: 4rem;
+  }
+  .article-card .card__heading {
+    font-size: 2rem;
+    line-height: 1.3;
   }
 }
 
