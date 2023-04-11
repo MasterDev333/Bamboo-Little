@@ -502,7 +502,7 @@ header .link::after {
   flex-direction: column;
 }
 .heading-btn {
-  padding: 40px 0 57px;
+  padding: 40px 0 20px;
 }
 .heading-btn h1 {
   margin-top: 0;
@@ -788,4 +788,11 @@ slider-component .slider-buttons {
   slider-component .slider-dots {
     display: none;
   }
+}
+#product-grid .card__inner {
+  --ratio-percent: 100% !important;
+}
+
+.collection-list + .pagination-wrapper {
+  margin-bottom: 3rem;
 }
