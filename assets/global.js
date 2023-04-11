@@ -647,10 +647,9 @@ class SliderComponent extends HTMLElement {
     }
 
     // update dot on slide change
-    console.log(this.currentPage);
     this.activeDot.classList.remove('is-active');
-    this.sliderDots[this.currentPage].classList.add('is-active');
-    this.activeDot = this.sliderDots[this.currentPage];
+    this.sliderDots[this.currentPage - 1].classList.add('is-active');
+    this.activeDot = this.sliderDots[this.currentPage - 1];
   }
 
   isSlideVisible(element, offset = 0) {
