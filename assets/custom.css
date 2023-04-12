@@ -548,7 +548,7 @@ header .link::after {
 
 /* Collection Page */
 .collection-hero__title {
-  margin-bottom: 2rem;
+  margin-block: 8rem 2rem !important;
   text-transform: capitalize;
 }
 .product-grid-container .collection .full-unstyled-link {
