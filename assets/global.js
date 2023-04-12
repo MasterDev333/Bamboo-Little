@@ -728,6 +728,12 @@ class SlideshowComponent extends SliderComponent {
     });
   }
 
+  onDotClick(event) {
+    super.onDotClick(event);
+    this.querySelector('.slider-dot.is-active').classList.remove('is-active');
+    event.target.classList.add('is-active');
+  }
+
   update() {
     super.update();
     this.sliderControlButtons = this.querySelectorAll('.slider-counter__link');
