@@ -70,6 +70,7 @@ h2, .h2 {
   background-color: transparent;
   text-decoration: none;
   outline: none;
+  transition: all .3s ease-in-out;
 }
 .link::after {
   position: absolute;
@@ -119,7 +120,6 @@ h2, .h2 {
   content: none;
 }
 .announcement-bar__link:hover {
-  background-color: var(--clr-dusk);
   color: rgba(var(--color-foreground),.75);
 }
 .announcement-bar__message {
