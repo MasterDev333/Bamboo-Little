@@ -797,8 +797,6 @@ class SlideshowComponent extends SliderComponent {
     this.slider.scrollTo({
       left: slideScrollPosition
     });
-    this.querySelector('.slider-dot.is-active').classList.remove('is-active');
-    this.querySelector(`.slider-dot:nth-child(${this.currentPage})`).classList.add('is-active');
   }
 
   setSlideVisibility() {
