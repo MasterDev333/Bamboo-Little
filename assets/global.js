@@ -816,8 +816,6 @@ class SlideshowComponent extends SliderComponent {
         item.setAttribute('tabindex', '-1');
       }
     });
-    this.querySelector('.slider-dot.is-active').classList.remove('is-active');
-    this.querySelector(`.slider-dot:nth-child(${this.currentPage})`).classList.add('is-active');
   }
 
   linkToSlide(event) {
