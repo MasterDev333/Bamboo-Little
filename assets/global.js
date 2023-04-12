@@ -800,6 +800,7 @@ class SlideshowComponent extends SliderComponent {
   }
 
   setSlideVisibility() {
+    this.update();
     this.sliderItemsToShow.forEach((item, index) => {
       const linkElements = item.querySelectorAll('a');
       if (index === this.currentPage - 1) {
