@@ -118,11 +118,18 @@ h2, .h2 {
 .announcement-bar__link.link::after {
   content: none;
 }
+.announcement-bar__link:hover {
+  background-color: var(--clr-dusk);
+  color: rgba(var(--color-foreground),.75);
+}
 .announcement-bar__message {
+  display: flex;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.02em;
   color: #4D4C4C;
+  align-items: center;
+  justify-content: center;
 }
 @media only screen and (min-width: 749px) {
   .announcement-bar__message {
@@ -801,7 +808,4 @@ slider-component .slider-buttons {
 
 .collection-list ~ .pagination-wrapper {
   margin-bottom: 3rem;
-}
-.bggle_button-link button {
-  display: none;
 }

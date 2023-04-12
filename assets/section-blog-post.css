@@ -250,6 +250,12 @@
 .bggle_product-container .bggle_button-link {
   color: #6D6E71;
 }
+#bloggy--article .blog__img {
+  border: none;
+}
+.bggle_button-link button {
+  display: none;
+}
 @media only screen and (max-width: 767px) {
   #bloggy--article .bggle_blog-post-image {
     height: 200px !important;
