@@ -695,6 +695,7 @@ class SlideshowComponent extends SliderComponent {
     this.setSlideVisibility();
 
     if (this.slider.getAttribute('data-autoplay') === 'true') this.setAutoPlay();
+
   }
 
   setAutoPlay() {
@@ -804,7 +805,7 @@ class SlideshowComponent extends SliderComponent {
       if (index === this.currentPage - 1) {
         if (linkElements.length) linkElements.forEach(button => {
           button.removeAttribute('tabindex');
-        });
+        }); 
         item.setAttribute('aria-hidden', 'false');
         item.removeAttribute('tabindex');
       } else {
@@ -815,6 +816,8 @@ class SlideshowComponent extends SliderComponent {
         item.setAttribute('tabindex', '-1');
       }
     });
+    this.querySelector('.slider-dot.is-active').classList.remove('is-active');
+    this.querySelector(`.slider-dot:nth-child(${this.currentPage - 1})`).classList.add('is-active');
   }
 
   linkToSlide(event) {
