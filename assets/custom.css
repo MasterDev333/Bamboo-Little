@@ -802,3 +802,6 @@ slider-component .slider-buttons {
 .collection-list ~ .pagination-wrapper {
   margin-bottom: 3rem;
 }
+.bggle_button-link button {
+  display: none;
+}
