@@ -243,9 +243,12 @@
   text-align: left;
 }
 #bloggy--article .bggle--price {
-  margin: 8px auto 0 0;
+  margin: 8px auto 0 0 !important;
   font-size: 14px;
   line-height: 18px;
+}
+.bggle_product-container .bggle_button-link {
+  color: #6D6E71;
 }
 @media only screen and (max-width: 767px) {
   #bloggy--article .bggle_blog-post-image {
@@ -261,5 +264,13 @@
 @media only screen and (max-width: 576px) {
   #bloggy--article .bggle--slider-blog {
     grid-template-columns: 1fr;
+  }
+  #bloggy--article .bggle_blog-post-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  #bloggy--article .bloggle_product--title {
+    font-size: 16px;
+    line-height: 18px;
   }
 }
