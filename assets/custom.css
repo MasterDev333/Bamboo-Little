@@ -115,6 +115,9 @@ h2, .h2 {
 .announcement-bar {
   background-color: var(--clr-dusk);
 }
+.announcement-bar__link.link::after {
+  content: none;
+}
 .announcement-bar__message {
   font-size: 14px;
   line-height: 21px;
