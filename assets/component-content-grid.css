@@ -1,13 +1,13 @@
 .content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 40px 10px;
   padding: 40px 0 60px;
   background-color: #F1EEE7;
   text-align: center;
 }
 .content-grid__heading {
   margin-top: 0;
-  margin-bottom: 40px;
-}
-.content-grid__col:not(:last-child) {
   margin-bottom: 40px;
 }
 .content-grid__image {
@@ -31,7 +31,6 @@
     padding: 60px 0 100px;
   }
   .content-grid__row {
-    display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-gap: 10px;
   }
@@ -40,5 +39,8 @@
   }
   .content-grid__image {
     padding-top: 66%;
+  }
+  .content-grid__col:nth-child(4) {
+    display: none;
   }
 }

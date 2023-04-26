@@ -11,7 +11,8 @@
             <img
               src="{{ block.settings.image | img_url: '394x260' }}"
               srcset="{{ block.settings.image | img_url: '788x520', scale: 2 }} 2x"
-              alt="">
+              alt=""
+            >
           </div>
         {% endif %}
         {% if block.settings.cta_url and block.settings.cta_text %}
@@ -25,47 +26,50 @@
 </div>
 
 {% schema %}
-  {
-    "name": "Content Grid",
-    "class": "section content-grid",
-    "settings": [
-      {
-        "type": "text",
-        "id": "heading",
-        "label": "Heading"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "column",
-        "name": "Column",
-        "settings": [
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image"
-          }, {
-            "type": "url",
-            "id": "cta_url",
-            "label": "CTA URL"
-          }, {
-            "type": "text",
-            "id": "cta_text",
-            "label": "CTA Text"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Content Grid",
-        "category": "Advanced Layout",
-        "blocks": [
-          {
-            "type": "column"
-          }
-        ]
-      }
-    ]
-  }
+{
+  "name": "Content Grid",
+  "class": "section content-grid",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    }
+  ],
+  "max_blocks": 4,
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Column",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "cta_url",
+          "label": "CTA URL"
+        },
+        {
+          "type": "text",
+          "id": "cta_text",
+          "label": "CTA Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Content Grid",
+      "category": "Advanced Layout",
+      "blocks": [
+        {
+          "type": "column"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
