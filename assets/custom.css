@@ -606,6 +606,9 @@ header .link::after {
 .cart__footer-wrapper + .featured-collection {
   background-color: transparent;
 }
+.cart__footer-wrapper+.featured-collection .gradient {
+  background-color: transparent;
+}
 .cart__footer-wrapper + .featured-collection .title {
   text-align: left;
   font-size: 3rem;
@@ -615,6 +618,8 @@ header .link::after {
   border: 1px solid #E1E3E5;
   box-shadow: none;
   outline: none;
+  background-color: transparent !important;
+  resize: none !important;
 }
 @media only screen and (max-width: 749px) {
   #cart .cart-items thead th {
