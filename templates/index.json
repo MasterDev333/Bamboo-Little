@@ -237,6 +237,30 @@
         "cta_url": "https:\/\/google.com",
         "cta_text": "Learn more"
       }
+    },
+    "frontpage-nosto-1": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "frontpage-nosto-1"
+      }
+    },
+    "frontpage-nosto-2": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "frontpage-nosto-2"
+      }
+    },
+    "frontpage-nosto-3": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "frontpage-nosto-3"
+      }
+    },
+    "frontpage-nosto-4": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "frontpage-nosto-4"
+      }
     }
   },
   "order": [
@@ -246,6 +270,10 @@
     "55837fa5-cbc4-4136-8930-71ac84da15c6",
     "10f7861a-d174-4da0-b7b7-49c8824a0d71",
     "c705d7b7-99dd-4d05-9c9f-5f24342b2a87",
-    "bf7724c9-3e42-4d34-ba50-096b339aaba4"
+    "bf7724c9-3e42-4d34-ba50-096b339aaba4",
+    "frontpage-nosto-1",
+    "frontpage-nosto-2",
+    "frontpage-nosto-3",
+    "frontpage-nosto-4"
   ]
 }

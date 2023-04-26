@@ -16,9 +16,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "searchpage-nosto-1": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "searchpage-nosto-1"
+      }
+    },
+    "searchpage-nosto-2": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "searchpage-nosto-2"
+      }
     }
   },
   "order": [
-    "main"
+    "searchpage-nosto-1",
+    "main",
+    "searchpage-nosto-2"
   ]
 }
