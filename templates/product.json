@@ -20,6 +20,16 @@
           "settings": {
           }
         },
+        "df35cac2-1bdf-4c42-ba05-98803f6a12d5": {
+          "type": "shopify:\/\/apps\/swatch-king-variants-options\/blocks\/stock-alert-block\/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
+          "settings": {
+          }
+        },
+        "e7d63dc5-6748-496f-b1a5-0887229360c2": {
+          "type": "shopify:\/\/apps\/swatch-king-variants-options\/blocks\/product-swatch-block\/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -47,6 +57,8 @@
         "title",
         "caption",
         "price",
+        "df35cac2-1bdf-4c42-ba05-98803f6a12d5",
+        "e7d63dc5-6748-496f-b1a5-0887229360c2",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
