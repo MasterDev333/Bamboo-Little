@@ -315,6 +315,100 @@
 
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+              {% assign productTags = product.tags | join:',' %}
+              {% if productTags contains 'footie' %}
+                <button class="link btn-popup" data-target="#popup-footie">Size chart</button>
+                <div class="size-popup" id="popup-footie">
+                  <button class="size-popup__close">
+                    {% render 'icon-close' %}
+                  </button>
+                  <table class="size-table">
+                    <thead>
+                      <tr>
+                        <th>Size</th>
+                        <th>Age(months)</th>
+                        <th>Weight</th>
+                        <th>Height</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>0-3 Months</td>
+                        <td>0-3</td>
+                        <td>8-12 lbs</td>
+                        <td>18-23”</td>
+                      </tr>
+                      <tr>
+                        <td>3-6 Months</td>
+                        <td>3-6</td>
+                        <td>12-17 lbs</td>
+                        <td>23-27”</td>
+                      </tr>
+                      <tr>
+                        <td>6-9 Months</td>
+                        <td>6-9</td>
+                        <td>17-20 lbs</td>
+                        <td>27-28”</td>
+                      </tr>
+                      <tr>
+                        <td>9-12 Months</td>
+                        <td>9-12</td>
+                        <td>20-22 lbs</td>
+                        <td>28-29”</td>
+                      </tr>
+                      <tr>
+                        <td>12-18 Months</td>
+                        <td>12-18</td>
+                        <td>22-25 lbs</td>
+                        <td>29-31”</td>
+                      </tr>
+                      <tr>
+                        <td>18-24 Months</td>
+                        <td>18-24</td>
+                        <td>25-27 lbs</td>
+                        <td>31-33”</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              {% elsif productTags contains 'romper' %}
+                
+                <button class="link btn-popup" data-target="#popup-romper">Size chart</button>
+                <div class="size-popup" id="popup-romper">
+                  <button class="size-popup__close">
+                    {% render 'icon-close' %}
+                  </button>
+                  <table class="size-table">
+                    <thead>
+                      <tr>
+                        <th>Size</th>
+                        <th>Age(months)</th>
+                        <th>Weight</th>
+                        <th>Height</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>0-3 Months</td>
+                        <td>0-3</td>
+                        <td>8-12 lbs</td>
+                        <td>18-23”</td>
+                      </tr>
+                      <tr>
+                        <td>3-6 Months</td>
+                        <td>3-6</td>
+                        <td>12-17 lbs</td>
+                        <td>23-27”</td>
+                      </tr>
+                      <tr>
+                        <td>6-9 Months</td>
+                        <td>6-9</td>
+                        <td>17-20 lbs</td>
+                        <td>27-28”</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              {% endif %} 
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
             {%- when 'rating' -%}
@@ -464,56 +558,6 @@
             </div>
           </details>
         </div>
-
-        {% assign productTags = product.tags | join:',' %}
-        {% if productTags contains 'footie' %}
-          <div class="product__accordion accordion quick-add-hidden">
-            <details id="Details-details">
-              <summary>
-                <div class="summary__title">
-                  {% render 'icon-accordion', icon: 'ruler' %}
-                  <h2 class="h4 accordion__title inline-richtext">
-                    Size Chart
-                  </h2>
-                </div>
-                {% render 'icon-caret' %}
-              </summary>
-              <div class="accordion__content rte" id="ProductAccordion-details">
-                <div class="chart-sizing" >
-                  <a href="https:{{ 'footie-sizing-large.jpg' | asset_url }}" target="_blank" style="border-bottom: 0;">
-                    <img data-swift-lazy="1" loading="lazy" src="{{ 'footie-sizing-small.jpg' | asset_img_url: '600x' }}" alt="footie sizing" />
-                  </a>
-                  <small>Click image to enlarge</small>
-                </div>
-              </div>
-            </details>
-          </div>
-        {% endif %}
-
-        {% assign productTags = product.tags | join:',' %}
-        {% if productTags contains 'romper' %}
-          <div class="product__accordion accordion quick-add-hidden">
-            <details id="Details-details">
-              <summary>
-                <div class="summary__title">
-                  {% render 'icon-accordion', icon: 'heart' %}
-                  <h2 class="h4 accordion__title inline-richtext">
-                    Size Chart
-                  </h2>
-                </div>
-                {% render 'icon-caret' %}
-              </summary>
-              <div class="accordion__content rte" id="ProductAccordion-details">
-                <div class="chart-sizing" >
-                  <a href="https:{{ 'romper-sizing-big-2.jpg' | asset_url }}" target="_blank" style="border-bottom: 0;">
-                    <img data-swift-lazy="1" loading="lazy" src="{{ 'romper-sizing-2.jpg' | asset_img_url: '600x' }}" alt="footie sizing" />
-                  </a>
-                  <small>Click image to enlarge</small>
-                </div>
-              </div>
-            </details>
-          </div>
-        {% endif %} 
 
         {% assign description = product.description | split: '<!-- split -->' %}
     		{% if description.size > 2 %}
