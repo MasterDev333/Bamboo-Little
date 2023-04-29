@@ -814,3 +814,7 @@ slider-component .slider-buttons {
 .collection-list ~ .pagination-wrapper {
   margin-bottom: 3rem;
 }
+
+#swatch-option1 {
+  display: none;
+}
