@@ -749,13 +749,6 @@ class SlideshowComponent extends SliderComponent {
     });
     this.sliderControlButtons[this.currentPage - 1].classList.add('slider-counter__link--active');
     this.sliderControlButtons[this.currentPage - 1].setAttribute('aria-current', true);
-
-    this.activeDot = document.querySelector('.slider-dot.is-active');
-    this.sliderdots = document.querySelectorAll('.slider-dot');
-    this.activeDot.classList.remove('is-active');
-    this.sliderDots[this.currentPage - 1].classList.add('is-active');
-    this.activeDot = this.sliderDots[this.currentPage - 1];
-    console.log(this.activeDot, this.sliderDots[this.currentPage - 1]);
   }
 
   autoPlayToggle() {
@@ -806,6 +799,12 @@ class SlideshowComponent extends SliderComponent {
       left: slideScrollPosition
     });
 
+    this.activeDot = document.querySelector('.slider-dot.is-active');
+    this.sliderdots = document.querySelectorAll('.slider-dot');
+    this.activeDot.classList.remove('is-active');
+    this.sliderDots[this.currentPage - 1].classList.add('is-active');
+    this.activeDot = this.sliderDots[this.currentPage - 1];
+    console.log(this.activeDot, this.sliderDots[this.currentPage - 1]);
   }
 
   setSlideVisibility() {
