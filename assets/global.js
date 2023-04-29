@@ -1099,3 +1099,24 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+
+// Size chart popup
+let btnPopups = document.querySelectorAll('.btn-popup');
+btnPopups.forEach(function(btnPopup) {
+  btnPopup.addEventListener('click', function() {
+    const target = this.dataset.target;
+    const popup = document.querySelector(target);
+    if (popup) {
+      popup.classList.add('is-open');
+      document.body.classList.add('overflow-hidden');
+    }
+  });
+});
+
+let btnCloses = document.querySelectorAll('.size-popup__close');
+btnCloses.forEach(function(btnClose) {
+  btnClose.addEventListener('click', function() {
+    document.querySelector('.size-popup.is-open').classList.remove('is-open');
+    document.body.classList.remove('overflow-hidden');
+  });
+})
