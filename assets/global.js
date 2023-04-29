@@ -803,9 +803,9 @@ class SlideshowComponent extends SliderComponent {
     this.sliderdots = document.querySelectorAll('.slider-dot');
     this.activeDot.classList.remove('is-active');
     if ( this.currentPage === this.sliderItems.length ) {
-      this.sliderDots[this.currentPage].classList.add('is-active');
-    } else {
       this.sliderDots[0].classList.add('is-active');
+    } else {
+      this.sliderDots[this.currentPage].classList.add('is-active');
     }
   }
 
