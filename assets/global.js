@@ -802,9 +802,11 @@ class SlideshowComponent extends SliderComponent {
     this.activeDot = document.querySelector('.slider-dot.is-active');
     this.sliderdots = document.querySelectorAll('.slider-dot');
     this.activeDot.classList.remove('is-active');
-    this.sliderDots[this.currentPage - 1].classList.add('is-active');
-    this.activeDot = this.sliderDots[this.currentPage - 1];
-    console.log(this.activeDot, this.sliderDots[this.currentPage - 1]);
+    if ( this.currentPage === this.sliderItems.length ) {
+      this.sliderDots[this.currentPage].classList.add('is-active');
+    } else {
+      this.sliderDots[0].classList.add('is-active');
+    }
   }
 
   setSlideVisibility() {
