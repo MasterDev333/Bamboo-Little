@@ -884,7 +884,7 @@ slider-component .slider-buttons {
 }
 
 @media only screen and (max-width: 767px) {
-  .size-table {
+  .size-popup {
     padding: 40px 10px 10px;
     max-width: 350px;
   }
