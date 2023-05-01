@@ -894,3 +894,7 @@ slider-component .slider-buttons {
     line-height: 14px;
   }
 }
+
+.fera-productReviewsSummary {
+  display: none !important;
+}
