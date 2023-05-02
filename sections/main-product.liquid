@@ -315,8 +315,8 @@
 
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
-              {{ collection | json }}
-              {%- if collection.metafields.custom.size_chart_image -%}
+              {% assign current_product_collection = product.collections.first %}
+              {%- if current_product_collection.metafields.custom.size_chart_image -%}
               <button class="link btn-popup" data-target="#popup-footie">Size chart</button>
               <div class="size-popup" id="popup-footie">
                 <button class="size-popup__close">
@@ -324,8 +324,8 @@
                 </button>
                 <img
                   class="size-popup__img"
-                  src="{{ collection.metafields.custom.size_chart_image.src | img_url: 'master' }}"
-                  alt="{{ collection.metafields.custom.size_chart_image.alt }}">
+                  src="{{ current_product_collection.metafields.custom.size_chart_image.src | img_url: 'master' }}"
+                  alt="{{ current_product_collection.metafields.custom.size_chart_image.alt }}">
               </div>
               {%- endif -%}
             {%- when 'buy_buttons' -%}
