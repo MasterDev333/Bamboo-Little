@@ -861,6 +861,9 @@ slider-component .slider-buttons {
 .size-popup__close svg {
   width: 16px;
 }
+.size-popup__img {
+  width: 100%;
+}
 .size-table {
   text-align: left;
   border-collapse: collapse;
