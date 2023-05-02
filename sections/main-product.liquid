@@ -316,19 +316,20 @@
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
               {% assign current_product_collection = product.collections.first %}
-              {{ product.collections | json }}
-              {%- if current_product_collection.metafields.custom.size_chart_image -%}
-              <button class="link btn-popup" data-target="#popup-footie">Size chart</button>
-              <div class="size-popup" id="popup-footie">
-                <button class="size-popup__close">
-                  {% render 'icon-close' %}
-                </button>
-                <img
-                  class="size-popup__img"
-                  src="{{ current_product_collection.metafields.custom.size_chart_image.src | img_url: 'master' }}"
-                  alt="{{ current_product_collection.metafields.custom.size_chart_image.alt }}">
-              </div>
-              {%- endif -%}
+              {%- for collection in product.collections -%}
+                {%- if collection.metafields.custom.size_chart_image -%}
+                <button class="link btn-popup" data-target="#popup-footie">Size chart</button>
+                <div class="size-popup" id="popup-footie">
+                  <button class="size-popup__close">
+                    {% render 'icon-close' %}
+                  </button>
+                  <img
+                    class="size-popup__img"
+                    src="{{ collection.metafields.custom.size_chart_image.src | img_url: 'master' }}"
+                    alt="{{ collection.metafields.custom.size_chart_image.alt }}">
+                </div>
+                {%- endif -%}
+              {%- endfor -%}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
             {%- when 'rating' -%}
