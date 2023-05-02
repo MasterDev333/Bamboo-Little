@@ -26,6 +26,12 @@
             "picker_type": "button"
           }
         },
+        "2ed04c6f-e8be-4802-b910-6130831171ba": {
+          "type": "size_chart",
+          "settings": {
+            "size_chart_img": "shopify:\/\/shop_images\/sizechart1.png"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -48,6 +54,7 @@
         "caption",
         "price",
         "variant_picker",
+        "2ed04c6f-e8be-4802-b910-6130831171ba",
         "quantity_selector",
         "buy_buttons",
         "5c58a259-ba72-40c4-b078-f7575daf37ef"
