@@ -898,3 +898,7 @@ slider-component .slider-buttons {
 .fera-productReviewsSummary {
   display: none !important;
 }
+
+.collection-list__item .card--media .card__inner .card__content {
+  display: none;
+}
