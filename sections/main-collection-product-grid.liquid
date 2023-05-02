@@ -145,7 +145,7 @@
               "
             >
               {%- for product in collection.products -%}
-                {% unless product.tags contains 'wholesale' %}
+                {% unless product.types contains 'wholesale' %}
                   {% assign lazy_load = false %}
                   {%- if forloop.index > 2 -%}
                     {%- assign lazy_load = true -%}
