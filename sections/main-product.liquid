@@ -316,6 +316,7 @@
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
               {% assign current_product_collection = product.collections.first %}
+              {{ product.collections | json }}
               {%- if current_product_collection.metafields.custom.size_chart_image -%}
               <button class="link btn-popup" data-target="#popup-footie">Size chart</button>
               <div class="size-popup" id="popup-footie">
