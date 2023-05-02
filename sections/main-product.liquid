@@ -323,10 +323,7 @@
                   <button class="size-popup__close">
                     {% render 'icon-close' %}
                   </button>
-                  <img
-                    class="size-popup__img"
-                    src="{{ collection.metafields.custom.size_chart_image.src | img_url: 'master' }}"
-                    alt="{{ collection.metafields.custom.size_chart_image.alt }}">
+                  <img class="size-popup__img" src="{{ collection.metafields.custom.size_chart_image.value | image_url }}">
                 </div>
                 {%- endif -%}
               {%- endfor -%}
