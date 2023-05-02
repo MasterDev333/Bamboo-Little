@@ -325,6 +325,7 @@
                   </button>
                   <img class="size-popup__img" src="{{ collection.metafields.custom.size_chart_image.value | image_url }}">
                 </div>
+                {% break %}
                 {%- endif -%}
               {%- endfor -%}
             {%- when 'buy_buttons' -%}
