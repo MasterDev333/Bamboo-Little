@@ -28,7 +28,7 @@
           "type": "logo_image",
           "settings": {
             "menu_enable": true,
-            "image": "shopify:\/\/shop_images\/home-cat-1.png",
+            "image": "shopify:\/\/shop_images\/Menu_Footies.jpg",
             "mega_link": "shop by",
             "title": "Soft enough for the most sensitive skin.",
             "cta_url": "shopify:\/\/collections\/footie-pajamas",
@@ -41,9 +41,9 @@
             "menu_enable": true,
             "image": "shopify:\/\/shop_images\/about-1.png",
             "mega_link": "bedtime",
-            "title": "",
-            "cta_url": "",
-            "cta_text": ""
+            "title": "They are snuggly soft with unique and custom prints.",
+            "cta_url": "shopify:\/\/collections\/blanket",
+            "cta_text": "Shop Blankets"
           }
         }
       },
