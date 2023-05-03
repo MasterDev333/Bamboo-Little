@@ -98,9 +98,9 @@
         "ee465768-9c1f-4fe2-b3f6-2b69258db316": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bamboo_swaddles_1.png",
-            "cta_url": "shopify:\/\/collections\/blanket",
-            "cta_text": "Blankets"
+            "image": "shopify:\/\/shop_images\/Accessories_03.jpg",
+            "cta_url": "shopify:\/\/collections\/accessories",
+            "cta_text": "Accessories"
           }
         }
       },
