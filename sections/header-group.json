@@ -39,11 +39,11 @@
           "type": "logo_image",
           "settings": {
             "menu_enable": true,
-            "image": "shopify:\/\/shop_images\/about-2.png",
+            "image": "shopify:\/\/shop_images\/why-3.jpg",
             "mega_link": "bedtime",
             "title": "They are snuggly soft with unique and custom prints.",
-            "cta_url": "shopify:\/\/collections\/blanket",
-            "cta_text": "Shop Blankets"
+            "cta_url": "shopify:\/\/collections\/sleep-sacks",
+            "cta_text": "Shop sleep sacks"
           }
         }
       },
