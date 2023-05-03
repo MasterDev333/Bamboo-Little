@@ -120,25 +120,25 @@
         "template--16716130549973__55837fa5-cbc4-4136-8930-71ac84da15c6-16795935899307c755-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bath"
+            "collection": "solids"
           }
         },
         "template--16716130549973__55837fa5-cbc4-4136-8930-71ac84da15c6-16795935899307c755-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bed"
+            "collection": "animals"
           }
         },
         "template--16716130549973__55837fa5-cbc4-4136-8930-71ac84da15c6-16795935899307c755-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "accessories"
+            "collection": "ocean-animals"
           }
         },
         "e825a958-dda9-4557-9b02-3edca47afb45": {
           "type": "featured_collection",
           "settings": {
-            "collection": "baby-bibs"
+            "collection": "geometrics"
           }
         }
       },
