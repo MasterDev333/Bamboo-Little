@@ -39,9 +39,9 @@
           "type": "logo_image",
           "settings": {
             "menu_enable": true,
-            "image": "shopify:\/\/shop_images\/why-3.jpg",
+            "image": "shopify:\/\/shop_images\/home-cat-3.png",
             "mega_link": "bedtime",
-            "title": "They are snuggly soft with unique and custom prints.",
+            "title": "Snuggly soft with unique and custom prints.",
             "cta_url": "shopify:\/\/collections\/sleep-sacks",
             "cta_text": "Shop sleep sacks"
           }
