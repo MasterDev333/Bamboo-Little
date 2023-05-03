@@ -45,11 +45,23 @@
             "cta_url": "shopify:\/\/collections\/sleep-sacks",
             "cta_text": "Shop sleep sacks"
           }
+        },
+        "36a93b4e-b52f-4239-9ee4-516713984658": {
+          "type": "logo_image",
+          "settings": {
+            "menu_enable": true,
+            "image": "shopify:\/\/shop_images\/2023-04-12BambooLittleFatBabyPhotographyWeb.jpg",
+            "mega_link": "Blankets",
+            "title": "Perfectly sized and unfailingly comfortable.",
+            "cta_url": "shopify:\/\/collections\/baby-swaddle-blankets",
+            "cta_text": "Shop swaddles"
+          }
         }
       },
       "block_order": [
         "141d875f-bdc3-4ded-a739-5ff0282e9571",
-        "3fbcf43e-5103-46cd-af4e-6ac6b2c57f7b"
+        "3fbcf43e-5103-46cd-af4e-6ac6b2c57f7b",
+        "36a93b4e-b52f-4239-9ee4-516713984658"
       ],
       "settings": {
         "logo_position": "middle-left",
