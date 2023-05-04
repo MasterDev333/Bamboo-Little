@@ -45,9 +45,9 @@
         "5aaa82ec-6ad1-4325-8890-50ef62f0695d"
       ],
       "settings": {
-        "heading": "Loveys you'll love",
-        "cta_url": "shopify:\/\/collections\/footie-pajamas",
-        "cta_text": "Shop footies",
+        "heading": "",
+        "cta_url": "",
+        "cta_text": "",
         "layout": "full_bleed",
         "slide_height": "large",
         "slider_visual": "counter",
