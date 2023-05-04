@@ -247,7 +247,9 @@
       }
     </script>
     {% include 'swift_core' %}
-  </head>
+  
+{% render 'gsf-conversion-pixels' %}
+</head>
   {%- liquid
     assign body_class = "gradient";
     if request.page_type == collection or request.page_type == 'product' or request.page_type == 'cart' :
