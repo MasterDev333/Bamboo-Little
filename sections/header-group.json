@@ -8,10 +8,10 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Enjoy 25% off Hooded Towel Sets",
+            "text": "Free Shipping on Orders $75+",
             "text_alignment": "center",
             "color_scheme": "background-1",
-            "link": "shopify:\/\/collections\/hooded-towel-sets"
+            "link": "shopify:\/\/collections\/all-products"
           }
         }
       },
