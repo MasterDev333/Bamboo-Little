@@ -45,7 +45,7 @@
         "5aaa82ec-6ad1-4325-8890-50ef62f0695d"
       ],
       "settings": {
-        "heading": "abt",
+        "heading": "",
         "cta_url": "",
         "cta_text": "",
         "layout": "full_bleed",
@@ -61,7 +61,7 @@
     "6ae49d9c-7d5a-4305-a7cc-e60e9a3a2c18": {
       "type": "content-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rompercollectoin_1024x1024_2x_1.png",
+        "image": "shopify:\/\/shop_images\/2023-04-16BambooLittleFatBabyPhotographyWeb-9500_9dbdcc7d-e21c-4ecc-a024-676c1bb4d802.jpg",
         "title": "Snuggly, breezy and sustainable",
         "content": "Soft enough for the most sensitive skin, better-performing than traditional materials, and kinder for the environment.",
         "cta_url": "shopify:\/\/collections\/bestsellers",
