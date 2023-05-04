@@ -24,18 +24,20 @@
     }
   {%- endstyle -%}
 {%- endif -%}
-<div class="heading-btn">
-  <div class="page-width">
-    {% if section.settings.heading %}
-      <h1>{{ section.settings.heading }}</h1>
-    {% endif %}
-    {% if section.settings.cta_url and section.settings.cta_text %}
-      <a href="{{ section.settings.cta_url }}" class="button button--primary">
-        {{ section.settings.cta_text }}
-      </a>
-    {% endif %}
+{% if section.settings.heading or section.settings.cta_url %}
+  <div class="heading-btn">
+    <div class="page-width">
+      {% if section.settings.heading %}
+        <h1>{{ section.settings.heading }}</h1>
+      {% endif %}
+      {% if section.settings.cta_url and section.settings.cta_text %}
+        <a href="{{ section.settings.cta_url }}" class="button button--primary">
+          {{ section.settings.cta_text }}
+        </a>
+      {% endif %}
+    </div>
   </div>
-</div>
+{% endif %}
 <slideshow-component
   class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}"
   role="region"
