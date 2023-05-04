@@ -24,13 +24,13 @@
     }
   {%- endstyle -%}
 {%- endif -%}
-{% if section.settings.heading or section.settings.cta_url %}
+{% if section.settings.heading != blank or section.settings.cta_url != blank %}
   <div class="heading-btn">
     <div class="page-width">
-      {% if section.settings.heading %}
+      {% if section.settings.heading != blank %}
         <h1>{{ section.settings.heading }}</h1>
       {% endif %}
-      {% if section.settings.cta_url and section.settings.cta_text %}
+      {% if section.settings.cta_url != blank and section.settings.cta_text != blank %}
         <a href="{{ section.settings.cta_url }}" class="button button--primary">
           {{ section.settings.cta_text }}
         </a>
