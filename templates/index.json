@@ -24,12 +24,12 @@
         "5aaa82ec-6ad1-4325-8890-50ef62f0695d": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2021-08-07Williams-6643_copy.jpg",
+            "image": "shopify:\/\/shop_images\/cropped.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "",
+            "link": "shopify:\/\/pages\/bamboo-baby-swaddles",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
