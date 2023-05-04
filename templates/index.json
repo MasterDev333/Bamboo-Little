@@ -46,8 +46,8 @@
       ],
       "settings": {
         "heading": "Loveys you'll love",
-        "cta_url": "shopify:\/\/collections\/security-blankets",
-        "cta_text": "Shop security blankets",
+        "cta_url": "shopify:\/\/collections\/footie-pajamas",
+        "cta_text": "Shop footies",
         "layout": "full_bleed",
         "slide_height": "large",
         "slider_visual": "counter",
@@ -74,7 +74,7 @@
         "template--16716130549973__b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f-1680104351cafcb371-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-cat-1.png",
+            "image": "shopify:\/\/shop_images\/2023-04-16BambooLittleFatBabyPhotographyWeb-0442.jpg",
             "cta_url": "shopify:\/\/collections\/bath",
             "cta_text": "Bathtime"
           }
@@ -82,7 +82,7 @@
         "623870df-a38c-4fd0-9c3a-b10bb369688d": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-cat-2.png",
+            "image": "shopify:\/\/shop_images\/2023-04-16BambooLittleFatBabyPhotographyWeb-9770_f1f069d2-ea76-4f77-8445-a6ba769faaa4.jpg",
             "cta_url": "shopify:\/\/collections\/bed",
             "cta_text": "Bedtime"
           }
@@ -90,7 +90,7 @@
         "b2596363-40ad-443a-a1ac-70e5e8a3bd95": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-cat-3.png",
+            "image": "shopify:\/\/shop_images\/2023-02-20BambooLittleWebSizeFatBaby-2596.jpg",
             "cta_url": "shopify:\/\/collections\/blanket",
             "cta_text": "Blankets"
           }
@@ -98,7 +98,7 @@
         "ee465768-9c1f-4fe2-b3f6-2b69258db316": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Accessories_03.jpg",
+            "image": "shopify:\/\/shop_images\/2023-02-20BambooLittleWebSizeFatBaby-2818.jpg",
             "cta_url": "shopify:\/\/collections\/accessories",
             "cta_text": "Accessories"
           }
