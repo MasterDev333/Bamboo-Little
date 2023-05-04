@@ -252,7 +252,8 @@
       src="https://www.bugherd.com/sidebarv2.js?apikey=mvt436r7v7x9abwsxxphrw"
       async="true"
     ></script>
-  </head>
+  {% include 'swift_core' %} 
+ </head>
   {%- liquid
     assign body_class = "gradient";
     if request.page_type == collection or request.page_type == 'product' or request.page_type == 'cart' :
