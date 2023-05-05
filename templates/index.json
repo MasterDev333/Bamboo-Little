@@ -90,20 +90,20 @@
     "b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f": {
       "type": "content-grid",
       "blocks": {
-        "template--16716130549973__b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f-1680104351cafcb371-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/home-cat-1.png",
-            "cta_url": "shopify:\/\/collections\/bath",
-            "cta_text": "Bathtime"
-          }
-        },
         "623870df-a38c-4fd0-9c3a-b10bb369688d": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/2023-04-16BambooLittleFatBabyPhotographyWeb-9770_f1f069d2-ea76-4f77-8445-a6ba769faaa4.jpg",
             "cta_url": "shopify:\/\/collections\/bed",
             "cta_text": "Bedtime"
+          }
+        },
+        "template--16716130549973__b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f-1680104351cafcb371-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-cat-1.png",
+            "cta_url": "shopify:\/\/collections\/bath",
+            "cta_text": "Bathtime"
           }
         },
         "b2596363-40ad-443a-a1ac-70e5e8a3bd95": {
@@ -124,8 +124,8 @@
         }
       },
       "block_order": [
-        "template--16716130549973__b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f-1680104351cafcb371-0",
         "623870df-a38c-4fd0-9c3a-b10bb369688d",
+        "template--16716130549973__b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f-1680104351cafcb371-0",
         "b2596363-40ad-443a-a1ac-70e5e8a3bd95",
         "ee465768-9c1f-4fe2-b3f6-2b69258db316"
       ],
