@@ -904,3 +904,9 @@ slider-component .slider-buttons {
   display: none;
 }
 
+a.banner__media img {
+  transition: all 1s ease-in-out;
+}
+a.banner__media:hover img {
+  transform: scale(1.1);
+}
