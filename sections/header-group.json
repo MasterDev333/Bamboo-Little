@@ -8,10 +8,10 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Enjoy 25% off Hooded Towel Sets",
+            "text": "Free Shipping on Orders $75+",
             "text_alignment": "center",
             "color_scheme": "background-1",
-            "link": "shopify:\/\/collections\/hooded-towel-sets"
+            "link": "shopify:\/\/collections\/all-products"
           }
         }
       },
@@ -28,7 +28,7 @@
           "type": "logo_image",
           "settings": {
             "menu_enable": true,
-            "image": "shopify:\/\/shop_images\/Menu_Footies.jpg",
+            "image": "shopify:\/\/shop_images\/cropped_63398980-45fd-4c6a-988e-42e3949dbf91.jpg",
             "mega_link": "shop by",
             "title": "Soft enough for the most sensitive skin.",
             "cta_url": "shopify:\/\/collections\/footie-pajamas",
@@ -39,7 +39,7 @@
           "type": "logo_image",
           "settings": {
             "menu_enable": true,
-            "image": "shopify:\/\/shop_images\/home-cat-3.png",
+            "image": "shopify:\/\/shop_images\/2023-02-20BambooLittleWebSizeFatBaby-9885_8f9dce80-bb15-460f-bc1a-0c760e18bf72.jpg",
             "mega_link": "bedtime",
             "title": "Snuggly soft with unique and custom prints.",
             "cta_url": "shopify:\/\/collections\/sleep-sacks",
@@ -50,7 +50,7 @@
           "type": "logo_image",
           "settings": {
             "menu_enable": true,
-            "image": "shopify:\/\/shop_images\/2023-04-12BambooLittleFatBabyPhotographyWeb.jpg",
+            "image": "shopify:\/\/shop_images\/bamboo_swaddles_1.png",
             "mega_link": "Blankets",
             "title": "Perfectly sized and unfailingly comfortable.",
             "cta_url": "shopify:\/\/collections\/baby-swaddle-blankets",

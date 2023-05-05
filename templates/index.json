@@ -6,14 +6,14 @@
         "template--16716130549973__689638d1-ac81-432a-a608-f51076aa87e2-1680279634065885ec-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bamboo_swaddles_1.png",
+            "image": "shopify:\/\/shop_images\/2023-02-20BambooLittleWebSizeFatBaby-0054_4262cdbe-e561-4420-a5c5-fc6008053469.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "",
-            "link": "",
+            "button_label": "shop footies",
+            "link": "shopify:\/\/collections\/footie-pajamas",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -24,14 +24,32 @@
         "5aaa82ec-6ad1-4325-8890-50ef62f0695d": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2021-08-07Williams-6643_copy.jpg",
+            "image": "shopify:\/\/shop_images\/cropped.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "",
-            "link": "",
+            "button_label": "shop swaddles",
+            "link": "shopify:\/\/collections\/baby-swaddle-blankets",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "f974753e-4ad6-4ed2-93cb-a19f39724722": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_7530.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "shop bathtime",
+            "link": "shopify:\/\/collections\/bath",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -42,10 +60,11 @@
       },
       "block_order": [
         "template--16716130549973__689638d1-ac81-432a-a608-f51076aa87e2-1680279634065885ec-1",
-        "5aaa82ec-6ad1-4325-8890-50ef62f0695d"
+        "5aaa82ec-6ad1-4325-8890-50ef62f0695d",
+        "f974753e-4ad6-4ed2-93cb-a19f39724722"
       ],
       "settings": {
-        "heading": "abt",
+        "heading": "",
         "cta_url": "",
         "cta_text": "",
         "layout": "full_bleed",
@@ -61,7 +80,7 @@
     "6ae49d9c-7d5a-4305-a7cc-e60e9a3a2c18": {
       "type": "content-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rompercollectoin_1024x1024_2x_1.png",
+        "image": "shopify:\/\/shop_images\/2023-04-16BambooLittleFatBabyPhotographyWeb-9500_9dbdcc7d-e21c-4ecc-a024-676c1bb4d802.jpg",
         "title": "Snuggly, breezy and sustainable",
         "content": "Soft enough for the most sensitive skin, better-performing than traditional materials, and kinder for the environment.",
         "cta_url": "shopify:\/\/collections\/bestsellers",
@@ -71,12 +90,12 @@
     "b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f": {
       "type": "content-grid",
       "blocks": {
-        "template--16716130549973__b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f-1680104351cafcb371-0": {
+        "b2596363-40ad-443a-a1ac-70e5e8a3bd95": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-cat-1.png",
-            "cta_url": "shopify:\/\/collections\/bath",
-            "cta_text": "Bathtime"
+            "image": "shopify:\/\/shop_images\/2023-02-20BambooLittleWebSizeFatBaby-2602.jpg",
+            "cta_url": "shopify:\/\/collections\/blanket",
+            "cta_text": "blankets"
           }
         },
         "623870df-a38c-4fd0-9c3a-b10bb369688d": {
@@ -84,15 +103,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2023-04-16BambooLittleFatBabyPhotographyWeb-9770_f1f069d2-ea76-4f77-8445-a6ba769faaa4.jpg",
             "cta_url": "shopify:\/\/collections\/bed",
-            "cta_text": "Bedtime"
+            "cta_text": "bedtime"
           }
         },
-        "b2596363-40ad-443a-a1ac-70e5e8a3bd95": {
+        "template--16716130549973__b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f-1680104351cafcb371-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2023-02-20BambooLittleWebSizeFatBaby-2602.jpg",
-            "cta_url": "shopify:\/\/collections\/blanket",
-            "cta_text": "Blankets"
+            "image": "shopify:\/\/shop_images\/home-cat-1.png",
+            "cta_url": "shopify:\/\/collections\/bath",
+            "cta_text": "bathtime"
           }
         },
         "ee465768-9c1f-4fe2-b3f6-2b69258db316": {
@@ -100,14 +119,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2023-02-20BambooLittleWebSizeFatBaby-2818_d9695f5c-10a2-4542-bf15-9b8080883a81.jpg",
             "cta_url": "shopify:\/\/collections\/accessories",
-            "cta_text": "Accessories"
+            "cta_text": "accessories"
           }
         }
       },
       "block_order": [
-        "template--16716130549973__b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f-1680104351cafcb371-0",
-        "623870df-a38c-4fd0-9c3a-b10bb369688d",
         "b2596363-40ad-443a-a1ac-70e5e8a3bd95",
+        "623870df-a38c-4fd0-9c3a-b10bb369688d",
+        "template--16716130549973__b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f-1680104351cafcb371-0",
         "ee465768-9c1f-4fe2-b3f6-2b69258db316"
       ],
       "settings": {
