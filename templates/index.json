@@ -90,6 +90,14 @@
     "b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f": {
       "type": "content-grid",
       "blocks": {
+        "b2596363-40ad-443a-a1ac-70e5e8a3bd95": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023-02-20BambooLittleWebSizeFatBaby-2602.jpg",
+            "cta_url": "shopify:\/\/collections\/blanket",
+            "cta_text": "blankets"
+          }
+        },
         "623870df-a38c-4fd0-9c3a-b10bb369688d": {
           "type": "column",
           "settings": {
@@ -106,14 +114,6 @@
             "cta_text": "Bathtime"
           }
         },
-        "b2596363-40ad-443a-a1ac-70e5e8a3bd95": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2023-02-20BambooLittleWebSizeFatBaby-2602.jpg",
-            "cta_url": "shopify:\/\/collections\/blanket",
-            "cta_text": "Blankets"
-          }
-        },
         "ee465768-9c1f-4fe2-b3f6-2b69258db316": {
           "type": "column",
           "settings": {
@@ -124,9 +124,9 @@
         }
       },
       "block_order": [
+        "b2596363-40ad-443a-a1ac-70e5e8a3bd95",
         "623870df-a38c-4fd0-9c3a-b10bb369688d",
         "template--16716130549973__b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f-1680104351cafcb371-0",
-        "b2596363-40ad-443a-a1ac-70e5e8a3bd95",
         "ee465768-9c1f-4fe2-b3f6-2b69258db316"
       ],
       "settings": {
