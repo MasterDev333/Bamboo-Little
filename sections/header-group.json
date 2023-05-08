@@ -8,10 +8,10 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Free Shipping on Orders $75+",
+            "text": "20% off your order + Free Lion Blanket with $100 purchase",
             "text_alignment": "center",
             "color_scheme": "background-1",
-            "link": "shopify:\/\/collections\/all-products"
+            "link": "shopify:\/\/products\/baby-blanket-lion"
           }
         }
       },
