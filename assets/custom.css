@@ -222,21 +222,24 @@ header .link::after {
   .mega-menu .mega-menu__list > li {
     width: 25%;
   }
-  .mega-menu .mega-menu__list > li > ul {
+  .mega-menu .mega-menu__list > li > .mega-menu__submenu {
     position: absolute;
-    display: grid;
     padding-left: 5%;
     top: 0;
     left: 25%;
     width: 70%;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-gap: 5px;
+    height: 100%;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
     transition: all .3s ease-in-out;
   }
-  .mega-menu .mega-menu__list > li:hover ul {
+  .mega-menu .mega-menu__list > li > ul {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 5px;
+  }
+  .mega-menu .mega-menu__list > li:hover .mega-menu__submenu {
     opacity: 1;
     visibility: visible;
     pointer-events: all;
