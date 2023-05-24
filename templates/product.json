@@ -449,6 +449,19 @@
             "star-title-b": "why bamboo?",
             "star-text-b": "Bamboo is one of the most renewable and environmentally-friendly materials on the planet: it grows pesticide-free, self-regenerates after harvesting, and doesn’t need chemical treatments like other fabrics."
           }
+        },
+        "a7ce02b6-c86e-45db-b600-5e307df49ba7": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "pajamas",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/2023-05-13BambooLittleFatBabyPhotography-3677.jpg",
+            "star-title-a": "why bamboo jersey?",
+            "star-text-a": "All of our footies are made with the finest bamboo jersey fabric with just the right amount of stretch. This combination takes comfort to the next level for your little one.",
+            "star-image-b": "shopify:\/\/shop_images\/2023-05-13BambooLittleFatBabyPhotography-3580.jpg",
+            "star-title-b": "",
+            "star-text-b": ""
+          }
         }
       },
       "block_order": [
@@ -462,7 +475,8 @@
         "6936461d-310c-4392-9f18-7b2ad2970d21",
         "ce426dda-d36f-45fb-866e-538554a5b2da",
         "78ccbeb0-da98-46e4-af17-45889aedc907",
-        "886eaf6c-2af2-4ed7-9b71-2805d8d71796"
+        "886eaf6c-2af2-4ed7-9b71-2805d8d71796",
+        "a7ce02b6-c86e-45db-b600-5e307df49ba7"
       ],
       "settings": {
       }
