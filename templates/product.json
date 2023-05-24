@@ -481,6 +481,18 @@
             "star-title-b": "the perfect gift idea",
             "star-text-b": "For the perfect gift, combine our bamboo pajamas with a matching blanket."
           }
+        },
+        "1186a78e-f927-465b-8c32-543ed4db2cc8": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "1.0 sleep sacks",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/2023-02-20BambooLittleWebSizeFatBaby-9885.jpg",
+            "star-title-a": "",
+            "star-text-a": "",
+            "star-title-b": "",
+            "star-text-b": ""
+          }
         }
       },
       "block_order": [
@@ -495,7 +507,8 @@
         "ce426dda-d36f-45fb-866e-538554a5b2da",
         "78ccbeb0-da98-46e4-af17-45889aedc907",
         "886eaf6c-2af2-4ed7-9b71-2805d8d71796",
-        "a7ce02b6-c86e-45db-b600-5e307df49ba7"
+        "a7ce02b6-c86e-45db-b600-5e307df49ba7",
+        "1186a78e-f927-465b-8c32-543ed4db2cc8"
       ],
       "settings": {
       }
