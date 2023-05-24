@@ -469,6 +469,19 @@
             "star-text-b": "Bamboo is one of the most renewable and environmentally-friendly materials on the planet: it grows pesticide-free, self-regenerates after harvesting, and doesn’t need chemical treatments like other fabrics."
           }
         },
+        "13f16907-1af0-4d15-b4dc-044436acb1f6": {
+          "type": "Hero",
+          "settings": {
+            "product_tag": "1.0 sleep sacks",
+            "main-title": "",
+            "star-image-a": "shopify:\/\/shop_images\/2023-02-20BambooLittleWebSizeFatBaby-9885.jpg",
+            "star-title-a": "made for comfort",
+            "star-text-a": "Our baby sleep sacks are thoughtfully created from bamboo jersey for ultimate comfort. They are snuggly soft with unique and custom prints combining luxury, quality, and cuteness all in one.",
+            "star-image-b": "shopify:\/\/shop_images\/bamboo.jpg",
+            "star-title-b": "why bamboo?",
+            "star-text-b": "Bamboo is one of the most renewable and environmentally-friendly materials on the planet: it grows pesticide-free, self-regenerates after harvesting, and doesn’t need chemical treatments like other fabrics."
+          }
+        },
         "a7ce02b6-c86e-45db-b600-5e307df49ba7": {
           "type": "Hero",
           "settings": {
@@ -480,18 +493,6 @@
             "star-image-b": "shopify:\/\/shop_images\/2023-05-13BambooLittleFatBabyPhotography-3570.jpg",
             "star-title-b": "the perfect gift idea",
             "star-text-b": "For the perfect gift, combine our bamboo pajamas with a matching blanket."
-          }
-        },
-        "1186a78e-f927-465b-8c32-543ed4db2cc8": {
-          "type": "Hero",
-          "settings": {
-            "product_tag": "1.0 sleep sacks",
-            "main-title": "",
-            "star-image-a": "shopify:\/\/shop_images\/2023-02-20BambooLittleWebSizeFatBaby-9885.jpg",
-            "star-title-a": "",
-            "star-text-a": "",
-            "star-title-b": "",
-            "star-text-b": ""
           }
         }
       },
@@ -507,8 +508,8 @@
         "ce426dda-d36f-45fb-866e-538554a5b2da",
         "78ccbeb0-da98-46e4-af17-45889aedc907",
         "886eaf6c-2af2-4ed7-9b71-2805d8d71796",
-        "a7ce02b6-c86e-45db-b600-5e307df49ba7",
-        "1186a78e-f927-465b-8c32-543ed4db2cc8"
+        "13f16907-1af0-4d15-b4dc-044436acb1f6",
+        "a7ce02b6-c86e-45db-b600-5e307df49ba7"
       ],
       "settings": {
       }
