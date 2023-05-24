@@ -1,5 +1,15 @@
 {
   "sections": {
+    "6ae49d9c-7d5a-4305-a7cc-e60e9a3a2c18": {
+      "type": "content-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2023-04-16BambooLittleFatBabyPhotographyWeb-9500_9dbdcc7d-e21c-4ecc-a024-676c1bb4d802.jpg",
+        "title": "Snuggly, breezy and sustainable",
+        "content": "Soft enough for the most sensitive skin, better-performing than traditional materials, and kinder for the environment.",
+        "cta_url": "shopify:\/\/collections\/bestsellers",
+        "cta_text": "Shop our favorites"
+      }
+    },
     "689638d1-ac81-432a-a608-f51076aa87e2": {
       "type": "slideshow",
       "blocks": {
@@ -67,7 +77,7 @@
             "button_label": "",
             "link": "shopify:\/\/collections\/pajama",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "top-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -94,16 +104,6 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "6ae49d9c-7d5a-4305-a7cc-e60e9a3a2c18": {
-      "type": "content-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2023-04-16BambooLittleFatBabyPhotographyWeb-9500_9dbdcc7d-e21c-4ecc-a024-676c1bb4d802.jpg",
-        "title": "Snuggly, breezy and sustainable",
-        "content": "Soft enough for the most sensitive skin, better-performing than traditional materials, and kinder for the environment.",
-        "cta_url": "shopify:\/\/collections\/bestsellers",
-        "cta_text": "Shop our favorites"
       }
     },
     "b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f": {
@@ -302,8 +302,8 @@
     }
   },
   "order": [
-    "689638d1-ac81-432a-a608-f51076aa87e2",
     "6ae49d9c-7d5a-4305-a7cc-e60e9a3a2c18",
+    "689638d1-ac81-432a-a608-f51076aa87e2",
     "b394b08c-95ee-4dd6-9df0-2f1aeb5ce20f",
     "55837fa5-cbc4-4136-8930-71ac84da15c6",
     "10f7861a-d174-4da0-b7b7-49c8824a0d71",
