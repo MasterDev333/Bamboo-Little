@@ -33,6 +33,10 @@
     {% endif %}
 
     {% render 'meta-tags' %}
+    
+    <!-- Start MyRegistry Javascript -->
+    <script type='text/javascript' xml='space'> (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = 'https://www.myregistry.com/ScriptPlatform/Shopify/AddToMrButton.js?siteKey=WNURpeYFxEShBfCw0VngUQ2&version=' + (new Date().getTime()); var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })(); </script>
+    <!-- End MyRegistry Javascript -->
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
@@ -250,10 +254,7 @@
     </script>
     {% include 'swift_core' %}
     
-    <!-- Start MyRegistry Javascript -->
-    <script type='text/javascript' xml='space'> (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = 'https://www.myregistry.com/ScriptPlatform/Shopify/AddToMrButton.js?siteKey=WNURpeYFxEShBfCw0VngUQ2&version=' + (new Date().getTime()); var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })(); </script>
-    <!-- End MyRegistry Javascript -->
-    
+
 {% render 'gsf-conversion-pixels' %}
 </head>
   {%- liquid
