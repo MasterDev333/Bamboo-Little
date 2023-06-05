@@ -166,6 +166,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "13422241189351788294": {
+        "type": "shopify:\/\/apps\/add-to-cart-button-nice\/blocks\/script-append\/240c2684-721f-4128-8d32-4d6424731474",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
