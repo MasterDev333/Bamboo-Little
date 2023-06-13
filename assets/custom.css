@@ -237,7 +237,7 @@ header .link::after {
   .mega-menu .mega-menu__list > li ul {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-gap: 5px;
+    grid-gap: 0 5px;
   }
   .mega-menu .mega-menu__list > li:hover .mega-menu__submenu {
     opacity: 1;
