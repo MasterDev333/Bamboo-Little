@@ -167,18 +167,18 @@
         "settings": {
         }
       },
-      "13422241189351788294": {
-        "type": "shopify:\/\/apps\/add-to-cart-button-nice\/blocks\/script-append\/240c2684-721f-4128-8d32-4d6424731474",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "127709043890318779": {
         "type": "shopify:\/\/apps\/aiod-all-automatic-discount\/blocks\/install-snippets\/9537caf0-36d5-4981-a648-8961a8e85652",
         "disabled": true,
         "settings": {
           "aiod_v2_call": "",
           "aiod_dev_api_call": ""
+        }
+      },
+      "13422241189351788294": {
+        "type": "shopify:\/\/apps\/add-to-cart-button-nice\/blocks\/script-append\/240c2684-721f-4128-8d32-4d6424731474",
+        "disabled": false,
+        "settings": {
         }
       }
     }
